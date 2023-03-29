@@ -1,8 +1,8 @@
 {
-  "name": "lolsokje/name-generator",
+  "name": "lil-pecky/driver-generator",
   "autoload": {
     "psr-4": {
-      "Lolsokje\\NameGenerator\\": "src/"
+      "LilPecky\\DriverGenerator\\": "src/"
     }
   },
   "authors": [
