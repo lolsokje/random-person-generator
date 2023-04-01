@@ -13,7 +13,7 @@ class Languages
         'da' => ['DK'],
         'de' => ['AT', 'CH', 'DE'],
         'el' => ['CY', 'GR'],
-        'en' => ['AU', 'CA', 'GB', 'NZ', 'US'],
+        'en' => ['AU', 'CA', 'GB', 'US'],
         'es' => ['AR', 'ES', 'PE', 'VE'],
         'et' => ['EE'],
         'fa' => ['IR'],
@@ -25,7 +25,7 @@ class Languages
         'hy' => ['AM'],
         'id' => ['ID'],
         'is' => ['IS'],
-        'it' => ['CH', 'IT'],
+        'it' => ['IT'],
         'ja' => ['JP'],
         'ka' => ['GE'],
         'kk' => ['KZ'],
@@ -43,7 +43,7 @@ class Languages
         'ru' => ['RU'],
         'sk' => ['SK'],
         'sl' => ['SI'],
-        'sr' => ['Latn_RS'],
+        'sr' => ['RS'],
         'sv' => ['SE'],
         'th' => ['TH'],
         'tr' => ['TR'],
@@ -100,6 +100,19 @@ class Languages
     public static function getLanguages(): array
     {
         return self::LANGUAGES;
+    }
+
+    public static function getAvailableLocales(): array
+    {
+        $locales = [];
+
+        foreach (self::COUNTRY_CODES as $language => $countries) {
+            foreach ($countries as $country) {
+                $locales[] = "{$language}_$country";
+            }
+        }
+
+        return $locales;
     }
 
     public static function getCountryCodes(string $language): array

@@ -28,6 +28,35 @@ it('throws an exception when getting all country codes for an invalid language',
 
 it('returns all country codes for a language', function () {
     $this->assertEquals(['BE', 'NL'], Languages::getCountryCodes('nl'));
-    $this->assertEquals(['AU', 'CA', 'GB', 'NZ', 'US'], Languages::getCountryCodes('en'));
+    $this->assertEquals(['AU', 'CA', 'GB', 'US'], Languages::getCountryCodes('en'));
     $this->assertEquals(['CN', 'TW'], Languages::getCountryCodes('zh'));
+});
+
+it('returns all available language and country combinations as locales', function () {
+    $locales = Languages::getAvailableLocales();
+
+    $testLocales = [
+        'ar_EG',
+        'ar_JO',
+        'da_DK',
+        'de_CH',
+        'de_DE',
+        'en_CA',
+        'en_GB',
+        'en_US',
+        'fr_BE',
+        'fr_FR',
+        'nl_BE',
+        'nl_NL',
+        'pt_BR',
+        'pt_PT',
+        'uk_UA',
+        'vi_VN',
+    ];
+
+    $this->assertIsArray($locales);
+
+    foreach ($testLocales as $locale) {
+        $this->assertContains($locale, $locales);
+    }
 });

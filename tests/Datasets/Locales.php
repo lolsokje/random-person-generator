@@ -1,6 +1,5 @@
 <?php
 
-dataset('locales', [
-    'en_GB',
-    'nl_NL',
-]);
+use LilPecky\DriverGenerator\Languages;
+
+dataset('locales', Languages::getAvailableLocales());
