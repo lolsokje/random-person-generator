@@ -1,9 +1,28 @@
 <?php
 
 use LilPecky\DriverGenerator\Factory;
+use LilPecky\DriverGenerator\Generator;
 use LilPecky\DriverGenerator\Locale;
 use LilPecky\DriverGenerator\Person;
 use LilPecky\DriverGenerator\Support\Gender;
+
+it('caches previously called methods', function () {
+    $generator = Factory::create();
+
+    $reflectionClass = new ReflectionClass(Generator::class);
+    $methodsProperty = $reflectionClass->getProperty('methods');
+
+    $this->assertEmpty($methodsProperty->getValue($generator));
+
+    $generator->givenName();
+
+    $this->assertArrayHasKey('givenName', $methodsProperty->getValue($generator));
+
+    $generator->givenName();
+
+    $this->assertArrayHasKey('givenName', $methodsProperty->getValue($generator));
+    $this->assertCount(1, $methodsProperty->getValue($generator));
+});
 
 it('generates a person for a given locale', function (string $localeString) {
     $locale = Locale::create($localeString);
