@@ -11,13 +11,12 @@ class Factory
 
     public static function create(
         ?Locale $locale = null,
-    ): Generator
-    {
-        if (!$locale) {
+    ): Generator {
+        if (! $locale) {
             $locale = Locale::create(self::DEFAULT_LOCALE);
         }
 
-        $generator = new Generator;
+        $generator = new Generator($locale);
 
         foreach (self::$defaultProviders as $provider) {
             $className = self::getProviderClassname($provider, $locale);

@@ -40,7 +40,7 @@ it('generates given names for a given locale', function (string $localeString) {
 
     $this->assertIsString($name);
     $this->assertContains($name, $provider::$familyNames);
-})->with(fn() => array_filter(Languages::getAvailableLocales(), fn(string $locale) => $locale !== 'is_IS'));
+})->with(fn () => array_filter(Languages::getAvailableLocales(), fn (string $locale) => $locale !== 'is_IS'));
 
 it('generates gender based family names for locales with gendered family names', function (string $localeString) {
     $locale = Locale::create($localeString);
@@ -59,6 +59,18 @@ it('generates gender based family names for locales with gendered family names',
     'pl_PL',
     'sk_SK',
 ]);
+
+it('does not generated gendered family names if no gendered family names exist', function () {
+    $locale = Locale::create('en_GB');
+    $provider = new \LilPecky\DriverGenerator\Providers\en_GB\Name;
+
+    $generator = Factory::create($locale);
+
+    $name = $generator->familyName(Gender::MALE);
+
+    $this->assertIsString($name);
+    $this->assertContains($name, $provider::$familyNames);
+});
 
 it('generates Icelandic male last names', function () {
     $locale = Locale::create('is_IS');
@@ -85,5 +97,6 @@ it('generates Icelandic female last names', function () {
 function getNameProvider(string $localeString): Name
 {
     $providerPath = "LilPecky\\DriverGenerator\\Providers\\$localeString\\Name";
+
     return new $providerPath;
 }

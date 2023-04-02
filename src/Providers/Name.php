@@ -29,7 +29,11 @@ class Name implements Provider
 
     public function familyName(?Gender $gender = null): string
     {
-        if (!$gender) {
+        if (! $gender) {
+            return Random::element(static::$familyNames);
+        }
+
+        if (! property_exists($this, 'familyNamesMale')) {
             return Random::element(static::$familyNames);
         }
 

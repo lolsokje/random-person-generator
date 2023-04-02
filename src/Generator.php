@@ -18,6 +18,11 @@ class Generator
     private array $providers = [];
     private array $methods = [];
 
+    public function __construct(
+        private readonly Locale $locale,
+    ) {
+    }
+
     public function addProvider(Provider $provider): void
     {
         $this->providers[] = $provider;
@@ -26,6 +31,19 @@ class Generator
     public function getProviders(): array
     {
         return $this->providers;
+    }
+
+    public function person(
+        DateTimeImmutable|string|null $startDate,
+        DateTimeImmutable|string|null $endDate,
+        ?Gender $gender = null,
+    ): Person {
+        return new Person(
+            country: $this->locale->country(),
+            dob: $this->dateBetween($startDate, $endDate),
+            firstName: $this->givenName($gender),
+            lastName: $this->familyName($gender),
+        );
     }
 
     public function __call(string $method, array $arguments)
