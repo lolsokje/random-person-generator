@@ -7,7 +7,7 @@ use Stringable;
 
 class Locale implements Stringable
 {
-    public function __construct(
+    private function __construct(
         protected readonly string $language,
         protected readonly string $country,
     ) {
