@@ -2,8 +2,6 @@
 
 namespace LilPecky\DriverGenerator;
 
-use Exception;
-
 class Factory
 {
     private const DEFAULT_LOCALE = 'en_GB';
@@ -35,11 +33,7 @@ class Factory
             return $providerClassname;
         }
 
-        if ($providerClassname = self::buildProviderClassname($provider)) {
-            return $providerClassname;
-        }
-
-        throw new Exception("No class found for provider [$provider] and locale [$locale]");
+        return self::buildProviderClassname($provider);
     }
 
     private static function buildProviderClassname(string $provider, ?Locale $locale = null): ?string
