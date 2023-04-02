@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ko_KR;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Ah-in", "Bum-suk", "Byung-ho", "Chan-woo", "Chang-min", "Chi-won", "Chul-soo", "Dae-hyun", "Do-yeon", "Dong-geun", "Eun-hyuk", "Eun-sang", "Geon-woo", "Gi-tae", "Guk-jin", "Gwang-hyun", "Ha-jin", "Han-gyeol", "Hee-chul", "Ho-jin",
         "Ho-seok", "Ho-yeon", "Hoon", "Hyeon-jong", "Hyeon-soo", "Hyeon-tae", "Hyeong-jun", "Hyeong-uk", "Hyo-jin", "Hyuk-jin", "Hyun-joon", "Hyun-jun", "Hyun-ki", "Hyun-seok", "Il-sung", "In-seong", "Jae-beom", "Jae-ha", "Jae-hee", "Jae-ho",
         "Jae-hwan", "Jae-hyeon", "Jae-hyun", "Jae-kyung", "Jae-min", "Jae-sang", "Jae-seok", "Jae-uk", "Jae-wook", "Jae-yong", "Jae-young", "Jeong-hoon", "Jeong-min", "Jeong-tae", "Ji-ho", "Ji-hoon", "Ji-hwan", "Ji-hyeok", "Ji-hyuk", "Ji-min",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Youngthu", "Youngwoo", "Yujin", "Yul", "Yunho", "Yunseong", "Yuseong", "Yutae"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ahra", "Ahyoung", "Bae", "Baek", "Bak", "Beak", "Bora", "Boram", "Boyoung", "Byeol", "Chae", "Chaeyoung", "Cheonsa", "Chin", "Choi", "Chung", "Daehyun", "Daeun", "Dahae", "Dahee",
         "Dahey", "Dain", "Dasom", "Dayeon", "Doyeon", "Eom", "Eun", "Eunbi", "Eunha", "Eunhee", "Eunhye", "Eunji", "Eunjoo", "Eunjung", "Eunyoung", "Fak", "Gahee", "Gim", "Gina", "Go",
         "Gong", "Gu", "Gyuri", "Ha", "Haena", "Haesoo", "Haewon", "Han", "Hana", "Hanbi", "Hanbyul", "Haneul", "Hanul", "Hayeon", "Hayoung", "Heejin", "Heejung", "Heesoo", "Heewon", "Heo",
@@ -27,7 +27,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Phak", "Ran", "Rie", "Rim", "Ryu", "Shin", "Sin", "Sohn", "Song", "Soo", "Suh", "Vak", "Wi", "Won", "Yang", "Yeom", "Yun"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Ahn", "Bae", "Baek", "Bak", "Cha", "Chae", "Cho", "Choe", "Choi", "Chon", "Chung", "Chwe", "Do", "Eom", "Goo", "Ha", "Hae", "Hahm", "Han", "Heo",
         "Hong", "Huh", "Hun", "Hwang", "Hwangbo", "Hyeon", "Hyun", "Im", "In", "Jang", "Jeong", "Ji", "Jin", "Jo", "Joo", "Jun", "Jung", "Kang", "Ki", "Kil",
         "Kim", "Ko", "Kook", "Ku", "Kwak", "Kwon", "Kwoun", "Lee", "Lim", "Ma", "Maeng", "Mok", "Mong", "Mun", "Myung", "Nam", "Namgoong", "No", "O", "Oh",

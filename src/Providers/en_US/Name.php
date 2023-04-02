@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\en_US;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Abdiel", "Abdul", "Abdullah", "Abe", "Abel", "Abelardo", "Abner", "Abraham", "Adalberto", "Adam", "Adan", "Adelbert", "Adolfo", "Adolphus", "Adonis", "Adrain", "Adrian", "Adriel", "Adrien",
         "Afton", "Agustin", "Ahmad", "Ahmed", "Aidan", "Aiden", "Akeem", "Al", "Alan", "Albert", "Alberto", "Albin", "Alden", "Alec", "Alejandrin", "Alek", "Alessandro", "Alex", "Alexander", "Alexandre",
         "Alexandro", "Alexie", "Alexis", "Alexys", "Alexzander", "Alf", "Alfonso", "Alfonzo", "Alford", "Alfred", "Alfredo", "Ali", "Allan", "Allen", "Alphonso", "Alvah", "Alvis", "Amani", "Amari", "Ambrose",
@@ -87,7 +87,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zachary", "Zachery", "Zack", "Zackary", "Zackery", "Zaiden", "Zakary", "Zander", "Zane", "Zayden", "Zechariah", "Zion"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aaliyah", "Abagail", "Abbey", "Abbie", "Abbigail", "Abby", "Abigail", "Abigale", "Abigayle", "Ada", "Adah", "Adaline", "Addie", "Addison", "Adela", "Adele", "Adelia", "Adeline", "Adell", "Adella",
         "Adelle", "Aditya", "Adriana", "Adrianna", "Adrienne", "Aglae", "Agnes", "Agustina", "Aida", "Aileen", "Aimee", "Aisha", "Aiyana", "Alaina", "Alana", "Alanis", "Alanna", "Alayna", "Alba", "Alberta",
         "Albertha", "Albina", "Alda", "Aleen", "Alejandra", "Alena", "Alene", "Alessandra", "Alessia", "Aletha", "Alexa", "Alexandra", "Alexandrea", "Alexandria", "Alexandrine", "Alexane", "Alexanne", "Alexis", "Alfreda", "Alia",
@@ -165,7 +165,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zora", "Zula"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abbott", "Abernathy", "Abshire", "Adams", "Altenwerth", "Anderson", "Ankunding", "Armstrong", "Auer", "Aufderhar", "Bahringer", "Bailey", "Baker", "Balistreri", "Barnes", "Barrows", "Bartell", "Bartoletti", "Barton", "Bashirian",
         "Batz", "Bauch", "Baumbach", "Bayer", "Beahan", "Beatty", "Bechtelar", "Becker", "Bednar", "Beer", "Beier", "Bennett", "Berge", "Bergnaum", "Bergstrom", "Bernhard", "Bernier", "Bins", "Bishop", "Blanda",
         "Blick", "Block", "Bode", "Boehm", "Bogan", "Bogisich", "Borer", "Bosco", "Botsford", "Boyer", "Boyle", "Bradtke", "Brakus", "Braun", "Breitenberg", "Brekke", "Brown", "Bruen", "Buckridge", "Campbell",

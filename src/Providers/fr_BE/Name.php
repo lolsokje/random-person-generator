@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\fr_BE;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Adam", "Adelin", "Adolphe", "Adrien", "Alain", "Albert", "Alessio", "Alexander", "Alexandre", "Alfred", "Aloïs", "André", "Antoine", "Armand", "Arne", "Arthur", "Auguste", "Aurélien", "Axel",
         "Ayoub", "Baptiste", "Basile", "Benjamin", "Bernard", "Bertrand", "Bo", "Charles", "Christian", "Claude", "Clément", "Constantin", "Corentin", "Cyrille", "Célestin", "César", "Daan", "Damien", "Daniel", "David",
         "Denis", "Didier", "Diego", "Dieudonné", "Dominique", "Dylan", "Edgard", "Edmond", "Edouard", "Elias", "Eliot", "Emiel", "Emile", "Emmanuel", "Enzo", "Ethan", "Etienne", "Eugène", "Eustache", "Fabien",
@@ -17,7 +17,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Timothée", "Tom", "Tristan", "Tuur", "Vic", "Victor", "Vince", "Vincent", "Warre", "Wout", "Xander", "Xavier", "Yanis", "Yves", "Zacharie"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adeline", "Adrienne", "Adèle", "Agnès", "Aimée", "Alexia", "Alexis", "Alice", "Alicia", "Aline", "Alyssa", "Amber", "Amy", "Amélie", "Anastasia", "Anaïs", "Andrée", "Angèle", "Anna", "Anne",
         "Anouk", "Antoinette", "Apolline", "Ariane", "Aurélie", "Axelle", "Aya", "Barbara", "Bernadette", "Berthe", "Brigitte", "Béatrice", "Camille", "Carine", "Caroline", "Catherine", "Chantal", "Charlotte", "Chiara", "Chloé",
         "Christelle", "Christiane", "Christine", "Claire", "Clara", "Clémence", "Colette", "Corinne", "Cécile", "Célia", "Céline", "Danielle", "Delphine", "Denise", "Dominique", "Edith", "Elena", "Eline", "Elisa", "Elisabeth",
@@ -31,7 +31,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yasmine", "Yvette", "Yvonne", "Zoé", "Zoë"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adam", "Aerts", "Amrani", "André", "Antoine", "Baert", "Bah", "Barry", "Bastin", "Bauwens", "Beaufort", "Benali", "Bernard", "Bertrand", "Bodart", "Bodson", "Bogaert", "Bogaerts", "Borremans", "Bosmans",
         "Bouchat", "Boulanger", "Bourgeois", "Brahy", "Brasseur", "Brixhe", "Carlier", "Celik", "Ceulemans", "Charlier", "Christiaens", "Claes", "Claessens", "Claeys", "Coffin", "Collard", "Collignon", "Collin", "Colpaert", "Cools",
         "Coppens", "Cornelis", "Cornet", "Counet", "Crols", "Cuvelier", "Daems", "Dardenne", "Dauvin", "De Backer", "De Clercq", "De Cock", "De Coninck", "De Coster", "De Greef", "De Groote", "De Meyer", "De Pauw", "De Ridder", "De Smedt",

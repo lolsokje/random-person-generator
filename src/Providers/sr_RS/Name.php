@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\sr_RS;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Agnica", "Agnija", "Aksentije", "Aleksa", "Aleksandar", "Aleksandron", "Aleksej", "Aleksija", "Aleksije", "Alimpije", "Anastasija", "Andrej", "Andrija", "Andrijaš", "Ankica", "Ante", "Antonije", "Anđa", "Anđela",
         "Anđelija", "Anđelka", "Anđelko", "Aranđel", "Arsa", "Arsen", "Arsenije", "Arso", "Atanacko", "Atanasije", "Avakum", "Avram", "Aćim", "Bajko", "Bajo", "Bajčeta", "Balša", "Bane", "Batrić", "Berisav",
         "Berislav", "Beriša", "Berko", "Biljan", "Bisenija", "Biserka", "Biserko", "Blagica", "Blaginja", "Blagoja", "Blagoje", "Blagomir", "Blagota", "Blaško", "Blaža", "Blažen", "Blaženka", "Blažo", "Boban", "Bogdan",
@@ -64,7 +64,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Živojin", "Živoljub", "Živomir", "Živorad", "Živoratka", "Živoslava", "Živoslavka", "Života"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adelina", "Agnica", "Agnija", "Aksentije", "Aleksandra", "Aleksandron", "Aleksija", "Aleksije", "Alimpije", "Ana", "Anastasija", "Anda", "Andrea", "Andreja", "Andrijana", "Andrijaš", "Angelina", "Anica", "Anita", "Anja",
         "Anka", "Ankica", "Antonela", "Antonina", "Anđa", "Anđela", "Anđelija", "Anđelka", "Anđelko", "Aranđel", "Arsa", "Arsenije", "Arso", "Atanacko", "Atanasije", "Avakum", "Avram", "Aćim", "Bajko", "Bajo",
         "Bajčeta", "Batrić", "Berisav", "Berislav", "Beriša", "Biljan", "Biljana", "Bisenija", "Biserka", "Biserko", "Blagica", "Blaginja", "Blagoje", "Blagomir", "Blagota", "Blaško", "Blažen", "Blaženka", "Blažo", "Bogdana",
@@ -125,7 +125,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Živomir", "Živorad", "Živoratka", "Živoslava", "Živoslavka", "Života"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abadžić", "Abdulić", "Abramić", "Acić", "Adamić", "Adžić", "Aguridić", "Ajdačić", "Ajdučić", "Aksentić", "Aksić", "Aladić", "Alargić", "Alavantić", "Albijanić", "Aleksandrić", "Aleksendrić", "Aleksić", "Alimpić", "Aličić",
         "Aljančić", "Amidžić", "Ananić", "Andić", "Andrejić", "Andrijanić", "Andrić", "Androbić", "Anić", "Aničić", "Ankić", "Anojčić", "Anokić", "Antić", "Antonić", "Anušić", "Anđelić", "Anđić", "Anđušić", "Apelić",
         "Apić", "Arambašić", "Ardalić", "Arsenić", "Arsić", "Atlagić", "Avalić", "Avdulić", "Avrić", "Azarić", "Aćimić", "Aćić", "Ačić", "Aškrabić", "Ašćerić", "Babarogić", "Babić", "Bacetić", "Badrić", "Bajagić",

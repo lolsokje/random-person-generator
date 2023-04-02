@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\pt_PT;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adriano", "Afonso", "Alberto", "Alexandre", "Alfredo", "André", "António", "Artur", "Augusto", "Aurélio", "Belmiro", "Benjamim", "Bernardo", "Bruno", "Carlos", "Cláudio", "Cristiano", "César", "Daniel", "Davi",
         "David", "Denis", "Diego", "Dinis", "Diogo", "Duarte", "Edgar", "Eduardo", "Elias", "Elísio", "Emanuel", "Emílio", "Enrique", "Enzo", "Eugénio", "Fabrício", "Feliciano", "Felipe", "Fernando", "Filipe",
         "Flávio", "Francisco", "Frederico", "Fábio", "Gabriel", "Gaspar", "Gil", "Gonçalo", "Guilherme", "Gustavo", "Henrique", "Hugo", "Hélder", "Igor", "Inácio", "Isaac", "Ivan", "Ivo", "Jaime", "Joaquim",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Óscar"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adriana", "Albertina", "Alexandra", "Alice", "Alícia", "Amélia", "Ana", "Andreia", "Anita", "Anna", "Antónia", "Aparecida", "Ariadne", "Ariana", "Aurora", "Beatriz", "Benedita", "Bernardete", "Bianca", "Bruna",
         "Brígida", "Bárbara", "Camila", "Carina", "Carla", "Carlota", "Carmen", "Carolina", "Catarina", "Cecília", "Celina", "Clara", "Cláudia", "Constança", "Cristiana", "Cristina", "Cátia", "Dalila", "Daniela", "Diana",
         "Dina", "Dora", "Doriana", "Débora", "Edite", "Eduarda", "Elena", "Elisa", "Elisabete", "Elsa", "Ema", "Emília", "Erica", "Ermelinda", "Ester", "Estrela", "Eugénia", "Eva", "Fabiana", "Filipa",
@@ -28,7 +28,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yasmin", "Yolanda", "Zélia", "Ângela", "Érica", "Érika", "Íris"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abreu", "Albuquerque", "Almeida", "Alves", "Amaral", "Amorim", "Andrade", "Anjos", "Antunes", "Araújo", "Assunção", "Azevedo", "Baptista", "Barbosa", "Barros", "Bastos", "Batista", "Bento", "Bernardo", "Borges",
         "Braga", "Branco", "Brandão", "Brito", "Cabral", "Camacho", "Campos", "Cardoso", "Carneiro", "Carvalho", "Castanheira", "Castro", "Cavalcante", "Cerdeira", "Chaves", "Coelho", "Conceição", "Cordeiro", "Correia", "Costa",
         "Coutinho", "Cruz", "Cunha", "Curado", "Dias", "Domingos", "Domingues", "Duarte", "Esteves", "Faria", "Fernandes", "Ferreira", "Fidalgo", "Figueiredo", "Fonseca", "Fontes", "Franco", "Freitas", "Garcia", "Gaspar",

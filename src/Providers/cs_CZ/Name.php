@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\cs_CZ;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Alexandr", "Aleš", "Alfréd", "Alois", "Andrej", "Antonín", "Arnošt", "Bedřich", "Benjamin", "Bohdan", "Bohumil", "Bohumír", "Bohuslav", "Boleslav", "Boris", "Bronislav", "Ctibor", "Ctirad", "Cyril",
         "Dagmar", "Dalibor", "Daniel", "David", "Denis", "Dimitrij", "Dominik", "Dušan", "Eduard", "Emil", "Erik", "Evžen", "Filip", "František", "Gabriel", "Gustav", "Hanuš", "Hynek", "Ignác", "Igor",
         "Ilona", "Ivan", "Ivo", "Jakub", "Jan", "Jaromír", "Jaroslav", "Jindřich", "Jiří", "Josef", "Jozef", "Jáchym", "Ján", "Kamil", "Karel", "Kazimír", "Kristián", "Kryštof", "Ladislav", "Leoš",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vítězslav", "Zbyněk", "Zdeněk", "Čeněk", "Šimon", "Štefan", "Štěpán", "Žan"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adéla", "Alena", "Alexandra", "Alice", "Aloisie", "Alžběta", "Amálie", "Anastázie", "Andrea", "Aneta", "Anežka", "Anita", "Anna", "Antonie", "Barbora", "Beáta", "Blanka", "Bohumila", "Bohuslava", "Boris",
         "Božena", "Dagmar", "Dana", "Daniela", "Denisa", "Diana", "Dominika", "Drahomíra", "Edita", "Eliška", "Ella", "Ema", "Emilie", "Emma", "Emílie", "Eva", "Františka", "Gabriela", "Hana", "Hedvika",
         "Helena", "Hortenzie", "Ida", "Ingrid", "Irena", "Iris", "Iva", "Ivana", "Iveta", "Jana", "Jarmila", "Jaroslava", "Jindřiška", "Jitka", "Jiřina", "Josefa", "Josefína", "Julie", "Justýna", "Kamila",
@@ -25,7 +25,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Šárka"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adam", "Bartoš", "Bláha", "Bureš", "Bílek", "Dlouhý", "Doležal", "Dvořák", "Fiala", "Havel", "Holub", "Horáček", "Hrubý", "Janda", "Janků", "Janoušek", "Janíček", "Jelínek", "Jiránek", "Kadlec",
         "Kafka", "Kalous", "Klíma", "Kopecký", "Kostka", "Kováč", "Krejčí", "Král", "Kubík", "Kubíček", "Kudláček", "Kulhánek", "Kučera", "Kvasnička", "Kříž", "Langer", "Linhart", "Mach", "Marek", "Matoušek",
         "Mašek", "Merta", "Musil", "Máslo", "Navrátil", "Novotný", "Novák", "Nývlt", "Pavlíček", "Petráš", "Pokorný", "Polák", "Pospíšil", "Procházka", "Růžička", "Sedlák", "Sedláček", "Skočdopole", "Skřivan", "Sládek",
@@ -33,7 +33,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zvěřina", "Zíka", "Čech", "Černý", "Šimeček", "Šimon", "Šimáček", "Štěpánek", "Šťastný"
     ];
 
-    protected static array $familyNamesMale = [
+    public static array $familyNamesMale = [
         "Adam", "Adamec", "Adámek", "Albrecht", "Ambrož", "Andrle", "Anděl", "Antoš", "Bajer", "Balcar", "Balog", "Baloun", "Baláž", "Baran", "Bareš", "Bartoň", "Bartoš", "Bartošek", "Barták", "Bartůněk",
         "Barák", "Bauer", "Bayer", "Bašta", "Bažant", "Bednařík", "Bednář", "Benda", "Beneš", "Beran", "Berger", "Berka", "Berky", "Bernard", "Beránek", "Bezděk", "Bečka", "Bečvář", "Bittner", "Blaha",
         "Blažek", "Blecha", "Bláha", "Bobek", "Boháč", "Boháček", "Borovička", "Bouda", "Bouček", "Bouška", "Boček", "Brabec", "Brabenec", "Brada", "Bradáč", "Braun", "Brejcha", "Brož", "Brožek", "Brychta",
@@ -86,7 +86,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Šípek", "Šír", "Šťastný", "Žemlička", "Žižka", "Žák", "Žáček", "Žídek", "Žďárský", "Žůrek"
     ];
 
-    protected static array $familyNamesFemale = [
+    public static array $familyNamesFemale = [
         "Adamcová", "Adamová", "Adámková", "Albrechtová", "Ambrožová", "Andrlová", "Andělová", "Antošová", "Bajerová", "Balcarová", "Balogová", "Balounová", "Balážová", "Baranová", "Barešová", "Bartoňová", "Bartošková", "Bartošová", "Bartáková", "Bartůňková",
         "Baráková", "Bauerová", "Bayerová", "Baštová", "Bažantová", "Bednaříková", "Bednářová", "Bendová", "Benešová", "Beranová", "Bergerová", "Berková", "Berkyová", "Bernardová", "Beránková", "Bezděková", "Bečková", "Bečvářová", "Bittnerová", "Blahová",
         "Blažková", "Blechová", "Bláhová", "Bobková", "Boháčková", "Boháčová", "Borovičková", "Boudová", "Boučková", "Boušková", "Bočková", "Brabcová", "Brabencová", "Bradová", "Bradáčová", "Braunová", "Brejchová", "Brožková", "Brožová", "Brychtová",

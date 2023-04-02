@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\da_DK;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aage", "Adam", "Ahmad", "Ahmed", "Aksel", "Albert", "Alex", "Alexander", "Alf", "Alfred", "Ali", "Allan", "Anders", "Andreas", "Anker", "Anton", "Arne", "Arnold", "Arthur", "Asbjørn",
         "Asger", "Aske", "August", "Axel", "Bendt", "Benjamin", "Benny", "Bent", "Bernhard", "Birger", "Bjarke", "Bjarne", "Bjørn", "Bo", "Brian", "Bruno", "Børge", "Carl", "Carlo", "Carsten",
         "Casper", "Charles", "Chr", "Chris", "Christian", "Christoffer", "Christopher", "Claus", "Dan", "Daniel", "David", "Dennis", "Ebbe", "Edmund", "Edvard", "Egon", "Eigil", "Einar", "Ejgil", "Ejler",
@@ -22,7 +22,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Werner", "Wilhelm", "William", "Willy", "Yannick", "Yousef", "Zacharias", "Åge", "Åke", "Øivind", "Øjvind", "Ørnulf", "Øyvind"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aase", "Agathe", "Agnes", "Agnete", "Agnethe", "Alberte", "Alexandra", "Alfrida", "Alice", "Alicia", "Alma", "Alvilda", "Amalie", "Amanda", "Amelia", "Andrea", "Ane", "Anette", "Anine", "Anita",
         "Anja", "Ann", "Anna", "Annalise", "Anne", "Anne-Lise", "Anne-Marie", "Anne-Mette", "Annelise", "Annette", "Anni", "Annie", "Annika", "Anny", "Antoinette", "Asta", "Astrid", "Augusta", "Aurora", "Benedikte",
         "Bente", "Berit", "Bertha", "Betina", "Bettina", "Betty", "Birgit", "Birgitte", "Birte", "Birthe", "Bitten", "Bodil", "Bolette", "Britt", "Britta", "Camilla", "Carina", "Carla", "Caroline", "Cathrine",
@@ -43,7 +43,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vivian", "Winnie", "Yrsa", "Yvonne"
     ];
 
-    protected static array $middleNames = [
+    public static array $middleNames = [
         "Aagaard", "Abildgaard", "Andersen", "Astrup", "Bach", "Bagge", "Bak", "Balle", "Bang", "Bank", "Bay", "Bech", "Beck", "Berg", "Bille", "Birch", "Birk", "Bisgaard", "Bjerg", "Bjerre",
         "Bjerregaard", "Bjerring", "Bjørn", "Bloch", "Bonde", "Borch", "Borg", "Borup", "Brandt", "Bredahl", "Brinch", "Brink", "Brix", "Bro", "Brogaard", "Bruhn", "Brun", "Bruun", "Brøndum", "Buch",
         "Buhl", "Bundgaard", "Busk", "Buus", "Bæk", "Bækgaard", "Bødker", "Bøgelund", "Bøgh", "Bülow", "Christensen", "Christiansen", "Clausen", "Dahl", "Dalgaard", "Dalsgaard", "Dam", "Damgaard", "Damkjær", "Damsgaard",
@@ -60,7 +60,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yde", "Ørum", "Østergaard", "Østergård"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Aagaard", "Abildgaard", "Abrahamsen", "Adamsen", "Ahmad", "Ahmed", "Albertsen", "Albrechtsen", "Ali", "Andersen", "Andersson", "Andreasen", "Andreassen", "Andresen", "Antonsen", "Asmussen", "Astrup", "Axelsen", "Bach", "Bager",
         "Bagge", "Bagger", "Bak", "Balle", "Bang", "Bay", "Bech", "Beck", "Bendixen", "Bendtsen", "Bengtsson", "Bentsen", "Bentzen", "Berg", "Bergmann", "Bertelsen", "Berthelsen", "Bidstrup", "Birch", "Birk",
         "Bisgaard", "Bjerg", "Bjerre", "Bjerregaard", "Bjerrum", "Bjørn", "Bloch", "Blom", "Boesen", "Boisen", "Bonde", "Borch", "Borg", "Borup", "Boye", "Boysen", "Brandt", "Brink", "Brix", "Bro",

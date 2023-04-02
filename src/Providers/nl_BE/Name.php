@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\nl_BE;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Adam", "Adrien", "Aiden", "Alessio", "Alex", "Alexander", "Alexandre", "Alexis", "Andreas", "Antoine", "Arne", "Arthur", "Axel", "Ayoub", "Baptiste", "Bart", "Ben", "Benjamin", "Bjorn",
         "Bram", "Brecht", "Brent", "Brian", "Casper", "Cedric", "Charles", "Christophe", "Clément", "Colin", "Daan", "Daniel", "David", "Dennis", "Diego", "Dieter", "Dirk", "Dries", "Dylan", "Edward",
         "Elias", "Emiel", "Emile", "Enzo", "Erik", "Ethan", "Evert", "Fabian", "Felix", "Ferre", "Finn", "Florian", "Floris", "Frans", "Frederik", "Gabriel", "Gaston", "Geert", "Gert", "Gilles",
@@ -18,7 +18,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Tristan", "Tuur", "Valentijn", "Vic", "Victor", "Vince", "Vincent", "Ward", "Warre", "Wim", "Xander", "Yanis", "Yannick", "Yves", "Zeger", "Zeno", "Zjef"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aagje", "Aaltje", "Adriana", "Agatha", "Aimée", "Aletta", "Alexia", "Alice", "Alicia", "Alida", "Alyssa", "Amber", "Amelie", "Amy", "Amélie", "Anaïs", "Anita", "Anke", "Anna", "Annabel",
         "Anneke", "Annelies", "Annette", "Anouk", "Arlette", "Astrid", "Augustine", "Axelle", "Aya", "Barbara", "Beatrijs", "Bente", "Berenice", "Bernadette", "Betje", "Bianca", "Bieke", "Birgit", "Bo", "Brigitte",
         "Camille", "Carine", "Carla", "Carmen", "Caroline", "Catharina", "Cato", "Celeste", "Chantal", "Charlotte", "Charlène", "Chiara", "Chloé", "Christel", "Christiane", "Christien", "Christina", "Christine", "Cindy", "Claire",
@@ -33,7 +33,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yasmine", "Zoé", "Zoë"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adam", "Aerts", "Amrani", "André", "Antoine", "Baert", "Bah", "Barry", "Bastin", "Bauwens", "Beckers", "Benali", "Berghmans", "Bernard", "Bertrand", "Bervoets", "Bex", "Bodart", "Bogaert", "Bogaerts",
         "Borremans", "Bosmans", "Boulanger", "Bourgeois", "Brasseur", "Brouwers", "Carlier", "Celik", "Ceulemans", "Charlier", "Christiaens", "Claes", "Claessens", "Claeys", "Coenen", "Collard", "Collignon", "Collin", "Cools", "Coppens",
         "Cornelis", "Cornet", "Cuvelier", "Cuyvers", "Daems", "Dams", "De Backer", "De Clerck", "De Clercq", "De Cock", "De Coninck", "De Coster", "De Greef", "De Groote", "De Meyer", "De Pauw", "De Ridder", "De Smedt", "De Smet", "De Vos",

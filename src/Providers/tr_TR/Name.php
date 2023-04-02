@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\tr_TR;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Ahmet", "Ali", "Alp", "Arda", "Armağan", "Atakan", "Attila", "Aşkın", "Baran", "Barlas", "Bartu", "Berk", "Berkay", "Berke", "Bora", "Burak", "Can", "Canberk", "Cem", "Cengiz",
         "Cihan", "Dağhan", "Deniz", "Derin", "Doruk", "Efe", "Ege", "Emir", "Emirhan", "Emre", "Enes", "Engin", "Eren", "Ertuğrul", "Faruk", "Ferhat", "Ferid", "Fikret", "Gökhan", "Göktürk",
         "Görkem", "Güney", "Gürkan", "Hakan", "Halil", "Harun", "Hasan", "Hüseyin", "Kaan", "Kadir", "Kaya", "Kağan", "Kerem", "Koray", "Kutay", "Levent", "Mehmet", "Melih", "Meriç", "Mert",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Şahin", "Şamil", "Şevket", "Şükrü"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adile", "Ahu", "Alev", "Aliye", "Arzu", "Aslı", "Asuman", "Aybüke", "Aysel", "Ayşe", "Azize", "Bahar", "Bedia", "Belgin", "Belkıs", "Benay", "Bengi", "Bengisu", "Bengü",
         "Bengül", "Bensu", "Beren", "Berrak", "Beste", "Beyza", "Bilge", "Binnur", "Birgül", "Birsen", "Buket", "Burcu", "Buse", "Candan", "Cansu", "Ceren", "Ceyda", "Ceylan", "Ceylin", "Ceylın",
         "Cihan", "Damla", "Defne", "Deniz", "Derin", "Derya", "Dicle", "Didem", "Dilan", "Dilek", "Dolunay", "Duygu", "Ebru", "Ece", "Ecrin", "Eda", "Ediz", "Ekin", "Elif", "Elvan",
@@ -26,7 +26,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Sinem", "Ümran", "İrem", "Şahnur"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abacı", "Abadan", "Aclan", "Adal", "Adan", "Adıvar", "Akal", "Akan", "Akar", "Akay", "Akaydın", "Akbulut", "Akdoğan", "Akgül", "Akman", "Aksoy", "Akyürek", "Akyüz", "Akça", "Akışık",
         "Akşit", "Alnıaçık", "Alpuğan", "Altın", "Alyanak", "Arslan", "Arslanoğlu", "Arıcan", "Aslan", "Atakol", "Atan", "Avan", "Avcı", "Ayaydın", "Aybar", "Aydan", "Aydın", "Aykaç", "Ayverdi", "Ağaoğlu",
         "Aşıkoğlu", "Babacan", "Babaoğlu", "Bademci", "Bakırcıoğlu", "Balaban", "Balcı", "Barbarosoğlu", "Baturalp", "Baykam", "Bayrak", "Bayram", "Baysal", "Başar", "Başoğlu", "Berberoğlu", "Beşerler", "Beşok", "Biçer", "Bolatlı",

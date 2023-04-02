@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\nl_NL;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Aart", "Abel", "Adam", "Adriaan", "Aiden", "Albert", "Alex", "Alexander", "Ali", "Amin", "Amir", "André", "Anton", "Arie", "Arjen", "Arnold", "Aron", "Arthur", "Ayden",
         "Ayoub", "Bart", "Bas", "Bastiaan", "Beau", "Ben", "Benjamin", "Berat", "Berend", "Bilal", "Bjorn", "Boaz", "Boris", "Bradley", "Bram", "Brent", "Brian", "Bryan", "Cas", "Casper",
         "Cees", "Chris", "Coen", "Colin", "Collin", "Cornelis", "Daan", "Damian", "Dani", "Daniel", "Daniël", "Dave", "David", "Dean", "Dex", "Dion", "Dirk", "Dries", "Duuk", "Dylan",
@@ -23,7 +23,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Wesley", "Wessel", "Willem", "Wim", "Wout", "Wouter", "Xavi", "Yannick", "Yassin", "Youssef", "Yusuf", "Zakaria"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aaliyah", "Adriana", "Aimée", "Alicia", "Alyssa", "Amber", "Amelia", "Amina", "Amira", "Amy", "Amélie", "Angelina", "Anna", "Annabel", "Anne", "Annelies", "Annemijn", "Anouk", "Ashley", "Astrid",
         "Aya", "Aylin", "Azra", "Barbara", "Bente", "Benthe", "Bianca", "Bibi", "Bo", "Britt", "Carla", "Carlijn", "Caroline", "Catharina", "Cato", "Cecilia", "Ceylin", "Charlotte", "Chloé", "Chloë",
         "Christel", "Christina", "Claudia", "Corinne", "Cornelia", "Dana", "Danielle", "Danique", "Daphne", "Deborah", "Demi", "Dewi", "Diana", "Dina", "Dorien", "Ecrin", "Elena", "Elif", "Elin", "Eline",
@@ -44,7 +44,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Victoria", "Yara", "Yasmin", "Yasmine", "Yfke", "Yinthe", "Zara", "Zeynep", "Zoey", "Zoë"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "'s Gravensande", "Aalts", "Aarden", "Aarts", "Adelaar", "Adriaansen", "Adriaensdr", "Adriaense", "Adryaens", "Aeije", "Aelftrud van Wessex", "Aertsz", "Alpaidis", "Amalrada", "Ansems", "Appelman", "Arens", "Arent", "Ariens", "Ariens Ansems",
         "Arnold", "Arts", "Aschman", "Backer", "Bakker", "Barents", "Bartels", "Bastiaanse", "Bastiaense", "Bave", "Becht", "Beekman", "Beernink", "Beijring", "Bekbergen", "Bellemans", "Belpere", "Beourgeois", "Berends", "Berendse",
         "Bergman", "Bergsma", "Bernaards", "Bertho", "Bezemer", "Bierstraten", "Bijlsma", "Billung", "Blaak", "Blees", "Bleijenberg", "Blewanus", "Bloemendaal", "Blok", "Blokland", "Blom", "Blonk", "Boddaugh", "Boer", "Boers",

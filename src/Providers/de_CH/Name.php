@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\de_CH;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adrian", "Alain", "Albert", "Alessandro", "Alex", "Alexander", "Alfred", "Ali", "Alois", "Andrea", "Andreas", "Andrin", "André", "Angelo", "Anton", "Antonio", "Armin", "Arnold", "Arthur", "August",
         "Beat", "Benjamin", "Bernhard", "Boris", "Bruno", "Carl", "Carlo", "Carlos", "Christian", "Christoph", "Claudio", "Conrad", "Cyrill", "Cédric", "Damian", "Daniel", "Dario", "David", "Denis", "Diego",
         "Dieter", "Dominic", "Dominik", "Eduard", "Elia", "Elias", "Emil", "Eric", "Erich", "Ernst", "Erwin", "Eugen", "Fabian", "Fabio", "Felix", "Flavio", "Florian", "Francesco", "Frank", "Franz",
@@ -18,7 +18,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Tobias", "Ueli", "Ulrich", "Urs", "Valentin", "Victor", "Vincent", "Walter", "Werner", "Wilhelm", "Willi", "Willy", "Wolfgang", "Xavier", "Yannick", "Yves", "Zeno"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adelheid", "Agnes", "Alessia", "Alexandra", "Alice", "Alina", "Aline", "Ana", "Andrea", "Angela", "Angelika", "Anita", "Anja", "Anna", "Annemarie", "Antonia", "Astrid", "Barbara", "Beatrice", "Beatrix",
         "Bernadette", "Bertha", "Bettina", "Brigitta", "Brigitte", "Carla", "Carmen", "Caroline", "Chantal", "Charlotte", "Chiara", "Christa", "Christina", "Christine", "Claudia", "Corina", "Corinne", "Cornelia", "Céline", "Daniela",
         "Deborah", "Denise", "Diana", "Dora", "Doris", "Dorothea", "Edith", "Elena", "Eliane", "Elisabeth", "Ella", "Elsa", "Elsbeth", "Emma", "Erika", "Erna", "Esther", "Eva", "Eveline", "Fabienne",
@@ -32,7 +32,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vanessa", "Vera", "Verena", "Veronika", "Vreni", "Yvonne", "Zita"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Achermann", "Ackermann", "Aebi", "Aeschlimann", "Alder", "Ammann", "Amstutz", "Arnold", "Bachmann", "Baer", "Baumann", "Baumgartner", "Baur", "Beck", "Beeler", "Benz", "Berger", "Betschart", "Bieri", "Bischof",
         "Blaser", "Blum", "Bolliger", "Bosshard", "Brunner", "Bucher", "Buechler", "Buess", "Burgener", "Burri", "Buser", "Bärtschi", "Bösch", "Bühler", "Bühlmann", "Bürgi", "Bürki", "Christen", "Daepp", "Eberle",
         "Egger", "Egli", "Eichenberger", "Erni", "Eugster", "Fankhauser", "Favre", "Fehr", "Fischer", "Fleury", "Flury", "Flückiger", "Forster", "Frei", "Freund", "Frey", "Frick", "Friedli", "Frischknecht", "Fuchs",

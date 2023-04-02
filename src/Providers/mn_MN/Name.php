@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\mn_MN;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Abaas", "Aguulang", "Altangadas", "Amarbat", "Ariunbold", "Avirmed", "Azjargal", "Baatar", "Badarch", "Bagabandi", "Baldandorj", "Bataar", "Bayaraa", "Bayarkhuu", "Bolormaa", "Bum-Erdene", "Buyanjargal", "Byambadorj", "Byambajav", "Byambasuren",
         "Chadraabal", "Chagdarjav", "Chimed", "Chuluun", "Dambadarjaa", "Damdin", "Dashdondog", "Dashdorj", "Dashnyam", "Davaadorj", "Davaajav", "Davaasuren", "Demberel", "Dorj", "Dorjpalam", "Dugerjav", "Dulguun", "Dulmaa", "Enkhtaivan", "Enkhtsetseg",
         "Erdene", "Erdene-Ochir", "Erdenebaatar", "Erdenebat", "Erdenebayar", "Erdenechuluun", "Erdenejargal", "Erdenezul", "Ganbaatar", "Ganbold", "Gankhuyag", "Gantulga", "Ganzorig", "Gombosuren", "Gonchig", "Gunchin", "Jargal", "Javkhlan", "Jigjidsuren", "Khaliun",
@@ -13,7 +13,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Uuganbayar", "Yondon", "Zolzaya"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Altantsetseg", "Amarjargal", "Ariunaa", "Battsetseg", "Bayarmaa", "Bolormaa", "Bulgan", "Bulganbayar", "Byambasuren", "Byambatsogt", "Chimeddorj", "Chimgee", "Chinbat", "Davaasuren", "Dolgormaa", "Dulamsuren", "Enkhjargal", "Enkhmaa", "Enkhzaya", "Erdenebat",
         "Erdenechimeg", "Erdenetuya", "Erdenezul", "Ganbaatar", "Gantsetseg", "Gerel", "Gereltsetseg", "Javzandolgor", "Khaliun", "Khulan", "Khurelbaatar", "Lkhagvasuren", "Lkhagvazul", "Lkhamjav", "Lkhamsuren", "Mandakhnaran", "Mandakhzul", "Munkhbayar", "Munkhchimeg", "Munkhdulguun",
         "Munkhjargal", "Munkhzul", "Narangerel", "Narantsetseg", "Naranzul", "Nergui", "Nomin", "Nomin-Erdene", "Nominjin", "Nyambayar", "Nyambu", "Ochirbat", "Odonchimeg", "Odontuya", "Oyun", "Oyunchimeg", "Oyundari", "Oyungerel", "Oyuntungalag", "Purevsuren",
@@ -21,7 +21,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zolzaya", "Zul-Erdene", "Zulaa", "Zulgerel", "Zulgur", "Zulmaa", "Zundui"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Altangerel", "Amar", "Ariunbold", "Avirmed", "Bagabandi", "Battulga", "Bayanmunkh", "Bayar", "Bayarsaikhan", "Bayartsogt", "Bilegt", "Bolormaa", "Bumtsend", "Chuluun", "Chuluunbaatar", "Chuluunbat", "Dagvadorj", "Dagvasuren", "Dashdorj", "Dashnyam",
         "Dashzeveg", "Davaajav", "Davaasuren", "Dorjsuren", "Dulguun", "Enkhbat", "Enkhbold", "Enkhjargal", "Enkhtsetseg", "Erdenbat", "Erdene", "Erdenebaatar", "Erdenebat", "Erdenechimeg", "Erdenejargal", "Erdenejav", "Erdenetuya", "Erdenezul", "Ganbaatar", "Ganbold",
         "Gantulga", "Ganzorig", "Gurragchaa", "Jambal", "Javkhlan", "Jigjidsuren", "Khaliun", "Khangai", "Khishgee", "Khosbayar", "Khurelbaatar", "Luvsan", "Mendbayar", "Mendeecee", "Munkh-Orgil", "Munkhbat", "Munkhbayar", "Munkhjargal", "Munkhtsetseg", "Narangerel",

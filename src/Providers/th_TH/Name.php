@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\th_TH;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Anawat", "Anupong", "Apichart", "Apirak", "Ariya", "Arthit", "Atipong", "Atthaphon", "Atthawit", "Atthaya", "Chalerm", "Chalit", "Chananan", "Chanchai", "Chanin", "Chanon", "Chanut", "Charnchai", "Charoen", "Chatchai",
         "Chatchawan", "Chatree", "Chatri", "Chayakorn", "Chayut", "Chettha", "Chidchanok", "Chinnawat", "Chiraphat", "Chitsanu", "Chitsanupong", "Chokchai", "Chomchai", "Chonlathee", "Chonnakan", "Chookiat", "Chotipong", "Chotiwat", "Chudet", "Chumphon",
         "Chutinan", "Dusit", "Ekachai", "Ekaphap", "Kamon", "Kanchit", "Kanin", "Kanokwan", "Kasem", "Kasidit", "Kasit", "Kasorn", "Kijja", "Kittichai", "Kittipat", "Kittiphong", "Kittisak", "Kittisit", "Kittithat", "Kriangsak",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Phumiphat", "Phumithon", "Phumrapee", "Phumrasak", "Phumruethai", "Phumthep", "Phumwiphat", "Phuphat", "Phuping", "Phutthiphong", "Phuwadol", "Phuwadon", "Phuwat", "Pongsakorn", "Pongsathon", "Pongsathorn", "Pongth"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Achara", "Amara", "Amporn", "Anong", "Apinya", "Araya", "Atchara", "Aumpika", "Boonsri", "Bua", "Budchara", "Budsaba", "Chaba", "Chalida", "Chamaiporn", "Chamlong", "Chamnong", "Chantra", "Chap", "Charinthip",
         "Chawalit", "Chaweewan", "Chintana", "Chomchanok", "Chomdao", "Chomphon", "Chomthong", "Chongkolnee", "Chonnipa", "Chonrada", "Chonrak", "Chonwipa", "Chotika", "Chuchai", "Chuenjit", "Chularat", "Chutikan", "Chutima", "Darunee", "Duangdao",
         "Duangkaew", "Duangrat", "Duangsamorn", "Duangta", "Fuangarom", "Gad", "Jampa", "Janthira", "Jarunee", "Kamolchanok", "Kamolwan", "Kanittha", "Kanya", "Karawek", "Karunya", "Kasama", "Kasinee", "Kessarin", "Ketsara", "Kewalin",
@@ -24,7 +24,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Oraphan", "Orathai", "Pacharaporn", "Pailin"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Arayawut", "Areekul", "Boonying", "Chaiwut", "Chancharoen", "Chansawang", "Charoenrat", "Charoentham", "Chawlaem", "Choomsai", "Chotiros", "Kaewkamol", "Kamtorn", "Karnjanaprakorn", "Kengsakul", "Kijkanakorn", "Klinhom", "Klinsukhon", "Koetcharin", "Komkrit",
         "Kongsawas", "Kranok", "Kridakorn", "Krirkthong", "Kritsada", "Kumkrong", "Kunphorn", "Nakpor", "Narongdej", "Nimitwong", "Niyomdecha", "Paijit", "Paitoon", "Pattanapong", "Phairuang", "Phan", "Phanichakul", "Phantuwong", "Phattarapon", "Phatthanapong",
         "Phatthanawan", "Phatthanawong", "Phetpradab", "Phibun", "Phimsen", "Phiriyakul", "Pholcharoen", "Phongsuwan", "Phontong", "Phorntep", "Phothisan", "Phromwong", "Phuangkhwam", "Phuangthong", "Phuengphol", "Phumsawat", "Phusutha", "Phuthong", "Phutrakul", "Pinitsoontorn",

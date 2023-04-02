@@ -4,9 +4,14 @@ namespace LilPecky\DriverGenerator;
 
 use DateTimeImmutable;
 use LilPecky\DriverGenerator\Contracts\Provider;
+use LilPecky\DriverGenerator\Support\Gender;
 
 /**
  * @method dateBetween(DateTimeImmutable|string|null $startDate = '-30 years', DateTimeImmutable|string|null $endDate = 'now'): DateTimeImmutable
+ *
+ * @method givenName(?Gender $gender = Gender::MALE): string
+ *
+ * @method familyName(?Gender $gender = null): string
  */
 class Generator
 {
@@ -36,12 +41,6 @@ class Generator
     private function getMethod(string $method)
     {
         if (isset($this->methods[$method])) {
-            return $this->methods[$method];
-        }
-
-        if (method_exists($this, $method)) {
-            $this->methods[$method] = [$this, $method];
-
             return $this->methods[$method];
         }
 

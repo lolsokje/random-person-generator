@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\en_CA;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Adam", "Aiden", "Archer", "Benjamin", "Blake", "Brandon", "Brendan", "Calvin", "Cameron", "Carter", "Christopher", "Daniel", "David", "Dominic", "Dylan", "Elijah", "Emmett", "Ethan", "Evan",
         "Felix", "Finn", "Fletcher", "Frank", "Gabriel", "Gavin", "Graham", "Grayson", "Harrison", "Hayden", "Henry", "Hunter", "Ian", "Isaac", "Isaiah", "Ivan", "Jackson", "Jacob", "Jasper", "Jonathan",
         "Kai", "Keenan", "Kevin", "Kieran", "Landon", "Leo", "Liam", "Lucas", "Malcolm", "Mason", "Matthew", "Maxwell", "Nathan", "Nathaniel", "Nicholas", "Nolan", "Oliver", "Olivier", "Oscar", "Owen",
@@ -13,7 +13,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zachary", "Zaid", "Zander", "Zane"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aaliyah", "Abigail", "Alexandra", "Amelia", "Beatrice", "Bethany", "Brianna", "Brooke", "Caroline", "Cassandra", "Cecilia", "Chloe", "Danielle", "Daphne", "Destiny", "Diana", "Eleanor", "Elizabeth", "Emily", "Evelyn",
         "Faith", "Felicity", "Fiona", "Francesca", "Gabrielle", "Genevieve", "Giselle", "Grace", "Haley", "Hannah", "Harper", "Heather", "Isa", "Isabella", "Isabelle", "Ivy", "Jade", "Jasmine", "Jocelyn", "Jordyn",
         "Kaitlyn", "Katherine", "Kayla", "Kira", "Leah", "Lila", "Lillian", "Lucy", "Mackenzie", "Madison", "Maeve", "Mia", "Natalia", "Natalie", "Nina", "Nora", "Olga", "Olive", "Olivia", "Ophelia",
@@ -22,7 +22,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zoe"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adams", "Anderson", "Armstrong", "Bailey", "Baker", "Bell", "Brown", "Cameron", "Campbell", "Carter", "Chen", "Davies", "Donovan", "Douglas", "Duncan", "Edwards", "Ellis", "Ellison", "Evans", "Fitzgerald",
         "Fleming", "Foster", "Franklin", "Gallagher", "Gordon", "Graham", "Gupta", "Hancock", "Harris", "Henderson", "Hughes", "Ibrahim", "Ingram", "Irvine", "Irving", "Jackson", "Jensen", "Johnson", "Jones", "Kaur",
         "Keller", "Kendrick", "Khan", "Lam", "Lee", "Liu", "Lopez", "MacDonald", "Martin", "McCarthy", "Mills", "Nash", "Nelson", "Nguyen", "Norton", "O'Brien", "O'Connor", "O'Reilly", "Olsen", "Parker",

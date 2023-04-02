@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\pl_PL;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Adrian", "Alan", "Albert", "Aleks", "Aleksander", "Aleksy", "Alex", "Alfred", "Andrzej", "Antoni", "Arkadiusz", "Artur", "Bartek", "Bartłomiej", "Bogdan", "Bogumił", "Bogusław", "Bohdan", "Bolesław",
         "Borys", "Bronisław", "Bruno", "Błażej", "Cezary", "Cyprian", "Damian", "Daniel", "Darek", "Dariusz", "Dawid", "Dominik", "Edward", "Emil", "Ernest", "Eryk", "Fabian", "Feliks", "Filip", "Franciszek",
         "Fryderyk", "Gabriel", "Grzegorz", "Gustaw", "Henryk", "Hubert", "Ignacy", "Igor", "Iwo", "Jacek", "Jakub", "Jan", "Janusz", "Jarosław", "Jeremi", "Jerzy", "Julian", "Juliusz", "Józef", "Jędrzej",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Wiktor", "Witold", "Wojciech", "Włodzimierz", "Zbigniew", "Zenon", "Zygmunt", "Łukasz"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adriana", "Adrianna", "Agata", "Agnieszka", "Aleksandra", "Alicja", "Alina", "Amelia", "Anastazja", "Angelika", "Aniela", "Anita", "Anna", "Antonina", "Apolonia", "Aurelia", "Barbara", "Beata", "Bianka",
         "Blanka", "Bogumiła", "Bożena", "Celina", "Dagmara", "Danuta", "Daria", "Dominika", "Dorota", "Edyta", "Eliza", "Elwira", "Elżbieta", "Emilia", "Ewa", "Ewelina", "Gabriela", "Genowefa", "Grażyna", "Halina",
         "Hanna", "Helena", "Ida", "Iga", "Inga", "Irena", "Irma", "Iwona", "Izabela", "Jadwiga", "Jagoda", "Janina", "Joanna", "Jolanta", "Judyta", "Julia", "Julianna", "Julita", "Justyna", "Kaja",
@@ -24,7 +24,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Teresa", "Tola", "Urszula", "Wanda", "Weronika", "Wiesława", "Wiktoria", "Wilhelmina", "Wioletta", "Zofia", "Zuzanna", "Łucja", "Żaklina", "Żaneta", "Żanetta", "Żanna", "Żelisława"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adamczyk", "Andrzejewski", "Antczak", "Augustyn", "Bagiński", "Bak", "Baran", "Baranowski", "Bartkowiak", "Bartosz", "Bednarczyk", "Bednarek", "Białas", "Białkowski", "Bielawski", "Bieniek", "Bober", "Bogucki", "Bojarski", "Borowiec",
         "Borowski", "Bożek", "Brzozowski", "Buczek", "Buczyński", "Bukowski", "Burzyński", "Buzek", "Błaszczyk", "Chmielewski", "Chmura", "Chojnacki", "Chojnowski", "Chrzanowski", "Cichocki", "Cieślak", "Cieślik", "Cybulski", "Cygan", "Czaja",
         "Czajka", "Czajkowski", "Czarnecki", "Czech", "Czekaj", "Czerwiński", "Dobosz", "Domański", "Drewniak", "Duda", "Dudek", "Dziedzic", "Dąbrowski", "Falkowski", "Fijałkowski", "Filipiak", "Filipowicz", "Flak", "Flis", "Frankowski",
@@ -34,7 +34,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Komorowski", "Konieczka", "Konieczny", "Kopczyk", "Koper", "Koperski", "Korczyński", "Kędzierski", "Kędziora", "Kępczyński"
     ];
 
-    protected static array $familyNamesMale = [
+    public static array $familyNamesMale = [
         "Adamczyk", "Adamski", "Andrzejewski", "Baran", "Baranowski", "Borkowski", "Borowski", "Brzeziński", "Bąk", "Błaszczyk", "Chmielewski", "Cieślak", "Czarnecki", "Czerwiński", "Duda", "Dudek", "Dąbrowski", "Gajewski", "Grabowski", "Górski",
         "Głowacki", "Jabłoński", "Jakubowski", "Jankowski", "Jasiński", "Jaworski", "Kaczmarczyk", "Kaczmarek", "Kalinowski", "Kamiński", "Kaźmierczak", "Konieczny", "Kowalczyk", "Kowalski", "Kozłowski", "Kołodziej", "Krajewski", "Krawczyk", "Krupa", "Król",
         "Kubiak", "Kucharski", "Kwiatkowski", "Laskowski", "Lewandowski", "Lis", "Maciejewski", "Majewski", "Makowski", "Malinowski", "Marciniak", "Mazur", "Mazurek", "Michalak", "Michalski", "Mróz", "Nowak", "Nowakowski", "Nowicki", "Olszewski",
@@ -42,7 +42,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Urbański", "Walczak", "Wasilewski", "Wieczorek", "Wilk", "Witkowski", "Wiśniewski", "Wojciechowski", "Woźniak", "Wróbel", "Wróblewski", "Wysocki", "Wójcik", "Włodarczyk", "Zając", "Zakrzewski", "Zalewski", "Zawadzki", "Zieliński", "Ziółkowski"
     ];
 
-    protected static array $familyNamesFemale = [
+    public static array $familyNamesFemale = [
         "Adamczyk", "Adamska", "Andrzejewska", "Baran", "Baranowska", "Borkowska", "Borowska", "Brzezińska", "Bąk", "Błaszczyk", "Chmielewska", "Cieślak", "Czarnecka", "Czerwińska", "Duda", "Dudek", "Dąbrowska", "Gajewska", "Grabowska", "Górecka",
         "Górska", "Głowacka", "Jabłońska", "Jakubowska", "Jankowska", "Jasińska", "Jaworska", "Kaczmarczyk", "Kaczmarek", "Kalinowska", "Kamińska", "Kaźmierczak", "Kowalczyk", "Kowalska", "Kozłowska", "Kołodziej", "Krajewska", "Krawczyk", "Krupa", "Król",
         "Kubiak", "Kucharska", "Kwiatkowska", "Laskowska", "Lewandowska", "Lis", "Maciejewska", "Majewska", "Makowska", "Malinowska", "Marciniak", "Mazur", "Mazurek", "Michalak", "Michalska", "Mróz", "Nowak", "Nowakowska", "Nowicka", "Olszewska",

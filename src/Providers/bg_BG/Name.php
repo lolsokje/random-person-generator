@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\bg_BG;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Alexander", "Angel", "Anton", "Atanas", "Bogdan", "Borislav", "Boyko", "Chavdar", "Danko", "Darin", "Dimitar", "Dobromir", "Dragan", "Emanuil", "Emil", "Georgi", "Goran", "Hristo", "Ilian", "Iliya",
         "Ivan", "Kaloyan", "Kamen", "Kostadin", "Krasimir", "Krassimir", "Lyubomir", "Marian", "Martin", "Milen", "Miroslav", "Nasko", "Nikifor", "Nikola", "Nikolay", "Nikolov", "Ognian", "Ognyan", "Oleg", "Pavel",
         "Pavlin", "Petar", "Plamen", "Radoslav", "Rangel", "Rosen", "Sasho", "Sava", "Sergei", "Slav", "Slavi", "Sofroniy", "Sotir", "Stanislav", "Stefan", "Stoyan", "Svetoslav", "Teodor", "Tihomir", "Todor",
@@ -12,7 +12,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zahari", "Zdravko", "Zhivko", "Zlatan", "Zoran"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adriana", "Albena", "Aleksandra", "Alena", "Alexandra", "Anastasia", "Anelia", "Angelina", "Antonia", "Apolonia", "Atanaska", "Bilyana", "Bistra", "Bojana", "Borislava", "Cvetelina", "Dafinka", "Daniela", "Dara", "Daria",
         "Darina", "Desislava", "Dimana", "Dimitrina", "Dobrina", "Dora", "Dorina", "Doroteya", "Elena", "Elica", "Elina", "Elisaveta", "Emiliya", "Eva", "Evdokia", "Galina", "Georgina", "Gergana", "Ginka", "Gloria",
         "Hristina", "Ida", "Iliana", "Ina", "Irena", "Iris", "Iva", "Ivana", "Ivelina", "Jana", "Jasmina", "Jordanka", "Kalina", "Kamelia", "Kapka", "Karina", "Katerina", "Krasimira", "Kristina", "Larisa",
@@ -22,7 +22,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Tania", "Tanya", "Teodora", "Tereza", "Tsvetanka", "Tsvetelina", "Valentina", "Vania", "Vanya"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adamski", "Aleksandrov", "Andonov", "Angelov", "Antonov", "Atanasov", "Bakalov", "Banev", "Barakov", "Borisov", "Bozhilov", "Chakarov", "Chankov", "Chavdarov", "Chernev", "Cholakov", "Daskalov", "Dimitrov", "Dinev", "Donchev",
         "Dyankov", "Elenkov", "Enchev", "Filipov", "Georgiev", "Goranov", "Grigorov", "Grozdanov", "Hristov", "Iliev", "Ivanov", "Ivaylov", "Kamenov", "Kanchev", "Karaivanov", "Karlov", "Kirov", "Koev", "Kolev", "Kostadinov",
         "Kostov", "Kovachev", "Kozhuharov", "Krasimirov", "Krastev", "Kuzmanov", "Lazarov", "Madzharov", "Marinov", "Martinov", "Mihaylov", "Milev", "Minchev", "Nedelchev", "Nikolov", "Nikolovski", "Panchev", "Pavlov", "Peev", "Penev",

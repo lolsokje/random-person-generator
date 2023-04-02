@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\es_ES;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Adam", "Adrián", "Agustín", "Aitor", "Alberto", "Aleix", "Alejandro", "Alex", "Alfonso", "Alfredo", "Alonso", "Ander", "Andrés", "Antonio", "Armando", "Arnau", "Arturo", "Asier", "Benjamín",
         "Bernardo", "Biel", "Bruno", "Carlos", "Christian", "Claudio", "Cristian", "Cristóbal", "César", "Daniel", "Dario", "David", "Diego", "Edgar", "Eduardo", "Elías", "Emilio", "Enrique", "Eric", "Erik",
         "Ernesto", "Esteban", "Fabián", "Felipe", "Fernando", "Francisco", "Francisco Javier", "Gabriel", "Gael", "Gerard", "Germán", "Gonzalo", "Guillem", "Guillermo", "Gustavo", "Hugo", "Héctor", "Ian", "Ignacio", "Iker",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zenón", "Zerah", "Zerón", "Zidane", "Zihuatanejo", "Zinedine", "Zinio", "Zion", "Zoltán", "Álvaro", "Ángel", "Óscar"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Abril", "Adela", "Adriana", "Agustina", "Aida", "Aina", "Ainara", "Ainhoa", "Aitana", "Alba", "Alejandra", "Alexandra", "Alexia", "Alicia", "Alma", "Amparo", "Ana", "Ana Isabel", "Ana María", "Andrea",
         "Anita", "Antonia", "Araceli", "Ariadna", "Aurora", "Beatriz", "Belen", "Berta", "Blanca", "Camila", "Candela", "Carina", "Carla", "Carlota", "Carmen", "Carolina", "Catalina", "Cecilia", "Celia", "Clara",
         "Claudia", "Cristina", "Daniela", "Diana", "Dolores", "Elena", "Elisa", "Elsa", "Elvira", "Emilia", "Encarnación", "Esperanza", "Estela", "Esther", "Eva", "Florencia", "Francesca", "Francisca", "Fátima", "Gabriela",
@@ -28,7 +28,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Virginia", "Ximena", "Yaiza", "Yolanda", "Zoe", "África", "Ángela", "Ángeles", "Úrsula"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abad", "Abeyta", "Abrego", "Abreu", "Acevedo", "Acosta", "Acuña", "Adame", "Adorno", "Agosto", "Aguado", "Aguayo", "Aguiar", "Aguilar", "Aguilera", "Aguirre", "Alanis", "Alaniz", "Alarcón", "Alba",
         "Alcala", "Alcaráz", "Alcántar", "Alejandro", "Alemán", "Alfaro", "Alfonso", "Alicea", "Almanza", "Almaráz", "Almonte", "Alonso", "Alonzo", "Altamirano", "Alva", "Alvarado", "Alvarez", "Amador", "Amaya", "Anaya",
         "Andreu", "Andrés", "Anguiano", "Angulo", "Antón", "Aparicio", "Apodaca", "Aponte", "Aragón", "Aranda", "Araña", "Arce", "Archuleta", "Arellano", "Arenas", "Arevalo", "Arguello", "Arias", "Armas", "Armendáriz",

@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\hy_AM;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Ara", "Ararat", "Armen", "Artak", "Artash", "Artur", "Ashot", "Avedis", "Avet", "Babken", "Bagrat", "Barkev", "Barsam", "Bedros", "Berge", "Berj", "Boghos", "Davit", "Dikran", "Edgar",
         "Edik", "Eduard", "Edward", "Eghishe", "Elias", "Elise", "Emanuel", "Emil", "Emma", "Erik", "Ernest", "Ervand", "Eugen", "Evgen", "Felix", "Gagik", "Garabed", "Garbis", "Garen", "Garik",
         "Garo", "Gevorg", "Ghazar", "Ghevont", "Gor", "Gourgen", "Grigor", "Grikor", "Gurgen", "Haig", "Hamo", "Harout", "Harutyun", "Heghine", "Hmayak", "Hovannes", "Hrach", "Hrachya", "Hrant", "Hripsime",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zaven", "Zavenar", "Zohrab"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aghavni", "Aida", "Alik", "Alina", "Alis", "Alvard", "Amalya", "Anahid", "Anahit", "Ani", "Anoush", "Anush", "Araks", "Araksy", "Araksya", "Araxi", "Araxia", "Armine", "Arpine", "Arsine",
         "Artakhshet", "Arus", "Arusiak", "Arusyak", "Astghik", "Astine", "Astrid", "Avag", "Avetis", "Avetisyan", "Diana", "Dzovag", "Elen", "Eleni", "Elina", "Ella", "Elvira", "Emma", "Emmik", "Erepouni",
         "Erna", "Eva", "Gayane", "Gohar", "Gorune", "Greta", "Gulizar", "Haykanush", "Hripsik", "Hripsime", "Hripsimia", "Hripsimine", "Hripsimyan", "Huri", "Irina", "Iskuhi", "Ivetta", "Izabella", "Jasmine", "Karina",
@@ -25,7 +25,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vardui", "Varoujan", "Vartouhi", "Vera", "Veronika", "Vika", "Violet", "Yelena", "Yeranuhi", "Yesenia", "Yeva", "Yulia", "Zabel", "Zarouhi", "Zaruhi", "Zemfira", "Zina", "Zita", "Zvart", "Zvartnots"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Aghabekyan", "Amiryan", "Arakelyan", "Araratyan", "Arevshatyan", "Avagyan", "Avanesyan", "Ayvazyan", "Badalyan", "Badoyan", "Barseghyan", "Bazikyan", "Bekaryan", "Budaghyan", "Chalabyan", "Darbinyan", "Davtyan", "Dekermenjian", "Dilanyan", "Dumanyan",
         "Gabrielyan", "Galstyan", "Gasparyan", "Gevorgyan", "Ghazaryan", "Ghukasyan", "Ginosyan", "Grigoryan", "Guloyan", "Gyulnazaryan", "Harutyunyan", "Hayrapetyan", "Hayrumyan", "Hayryan", "Haytyan", "Hovakimyan", "Hovhannisyan", "Hovsepyan", "Hunanyan", "Isahakyan",
         "Jivanyan", "Kadzhikyan", "Karamyan", "Karapetyan", "Karapetyan-Tadevosyan", "Karapetyants", "Karapetyants-Kokhbetsyan", "Kazaryan", "Khachatryan", "Khachikyan", "Khachumyan", "Khalatyan", "Khazaryan", "Khechoyan", "Kirakosyan", "Kocharyan", "Kostanyan", "Kotanjyan", "Kotcharian", "Koyunyan",

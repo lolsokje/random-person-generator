@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\sl_SI;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Albert", "Albin", "Aleks", "Aleksandar", "Aleksander", "Aleksej", "Alen", "Alex", "Aleš", "Aljaž", "Aljoša", "Alojz", "Alojzij", "Andraž", "Andrej", "Anej", "Anton", "Anže", "Arian",
         "Atila", "Avgust", "Ažbe", "Benjamin", "Bernard", "Bine", "Blaž", "Bogdan", "Bogomir", "Bojan", "Bor", "Boris", "Borut", "Bostjan", "Boštjan", "Božidar", "Branko", "Brin", "Bruno", "Ciril",
         "Cvetko", "Damijan", "Damir", "Damjan", "Dane", "Daniel", "Danijel", "Danilo", "Dare", "Darko", "David", "Davor", "Davorin", "Dejan", "Denis", "Domen", "Dominik", "Dorian", "Dorijan", "Dragan",
@@ -21,7 +21,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Žan", "Željko", "Žiga"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adrijana", "Ajda", "Ajla", "Albina", "Aleksandra", "Alenka", "Alina", "Alja", "Alojzija", "Amalija", "Ana", "Ana Marija", "Anamarija", "Anastazija", "Andreja", "Andrejka", "Aneja", "Anela", "Angela", "Anica",
         "Anika", "Anita", "Anja", "Anka", "Antonija", "Barbara", "Bernarda", "Blanka", "Bojana", "Borutka", "Branka", "Breda", "Brigita", "Brina", "Cecilija", "Cvetka", "Damjana", "Danaja", "Danica", "Daniela",
         "Danijela", "Darija", "Darinka", "Darja", "Daša", "Diana", "Dolores", "Doroteja", "Dragana", "Dragica", "Dušanka", "Ela", "Elena", "Eli", "Elizabeta", "Ella", "Ema", "Emilija", "Ena", "Erika",
@@ -38,7 +38,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zala", "Zara", "Zarja", "Zdenka", "Zinka", "Zlata", "Zlatka", "Zofija", "Zoja", "Zora", "Zvonka", "Špela", "Štefanija", "Štefka", "Žana", "Živa"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Ambrožič", "Babič", "Bajc", "Bartol", "Bergant", "Bevc", "Bezjak", "Bizjak", "Blatnik", "Blažič", "Bogataj", "Božič", "Bregar", "Breznik", "Bukovec", "Cerar", "Cestnik", "Cvetko", "Debeljak", "Demšar",
         "Dolenc", "Dolinar", "Dolinšek", "Erjavec", "Eržen", "Ferjančič", "Filipič", "Fras", "Furlan", "Gajšek", "Godec", "Golob", "Gomboc", "Gorenc", "Gorenjak", "Gorjup", "Gregorič", "Gregorčič", "Hafner", "Hodžić",
         "Horvat", "Hozjan", "Hočevar", "Hren", "Hribar", "Hribernik", "Hrovat", "Humar", "Ilić", "Ivančič", "Jamnik", "Janežič", "Jarc", "Javornik", "Jazbec", "Jelen", "Jenko", "Jereb", "Jerič", "Jerman",

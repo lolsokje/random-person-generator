@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\vi_VN;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "An", "Anh", "Bach", "Bao", "Bich", "Binh", "Buu", "Bào", "Bình", "Bạch", "Bảo", "Bắc", "Bằng", "Bổng", "Bửu", "Ca", "Can", "Canh", "Chau", "Chien",
         "Chinh", "Chiến", "Chiểu", "Châu", "Chính", "Chương", "Chưởng", "Chấn", "Cuu", "Công", "Cơ", "Cương", "Cường", "Cảnh", "Cần", "Cẩn", "Dang", "Danh", "Di", "Dinh",
         "Diệp", "Diệu", "Do", "Dong", "Du", "Duc", "Duong", "Duy", "Duệ", "Dân", "Dũng", "Dương", "Dụng", "Gia", "Giang", "Giác", "Giáp", "Hai", "Han", "Hieu",
@@ -24,7 +24,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Đức", "Ẩn"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "An", "Anh", "Bình", "Bích", "Băng", "Bạc", "Bạch", "Bảo", "Bến", "Bội", "Ca", "Chi", "Chinh", "Chiêu", "Chung", "Châu", "Cát", "Cúc", "Cương", "Cầm",
         "Cẩm", "Danh", "Dao", "Di", "Diễm", "Diệp", "Diệu", "Du", "Dung", "Duyên", "Dân", "Dương", "Gia", "Giang", "Giao", "Giáng", "Hiếu", "Hiền", "Hiệp", "Hoa",
         "Hoan", "Hoài", "Hoàn", "Huyền", "Huệ", "Hà", "Hân", "Hòa", "Hương", "Hường", "Hạ", "Hạnh", "Hải", "Hảo", "Hậu", "Hằng", "Hồng", "Hợp", "Khai", "Khanh",
@@ -37,7 +37,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ân", "Ôn", "Ý", "Đan", "Đinh", "Điệp", "Đoan", "Đài", "Đàn", "Đào", "Đình", "Đông", "Đường", "Đức"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "An", "Biện", "Bàng", "Bành", "Bá", "Bì", "Bình", "Bùi", "Bạc", "Bạch", "Bảo", "Bế", "Bồ", "Bửu", "Ca", "Cam", "Cao", "Chiêsm", "Chu", "Chung",
         "Chuỳ", "Châu", "Chương", "Chế", "Chử", "Cung", "Cái", "Cát", "Cù", "Cấn", "Cầm", "Cổ", "Cửu", "Cự", "Danh", "Diêm", "Diệp", "Doãn", "Dã", "Dũng",
         "Dư", "Dương", "Dịch", "Giang", "Giao", "Giáp", "Giả", "Hoa", "Hoàng", "Huỳnh", "Hy", "Hà", "Hàn", "Hàng", "Hán", "Hình", "Hùng", "Hạ", "Hồ", "Hồng",

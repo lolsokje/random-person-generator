@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\zh_CN;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "An", "Bao", "Bin", "Bo", "Can", "Chao", "Chen", "Cheng", "Chi", "Chong", "Chun", "Cong", "Da", "Dai", "Dan", "Dao", "Dong", "En", "Er", "Fa",
         "Fan", "Fang", "Fei", "Feng", "Fu", "Gang", "Gao", "Ge", "Gen", "Gong", "Gu", "Guang", "Gui", "Guo", "Hai", "Han", "Hang", "Hao", "He", "Hong",
         "Hou", "Hu", "Hua", "Huan", "Huang", "Hui", "Jia", "Jian", "Jiang", "Jie", "Jin", "Jing", "Jiu", "Ju", "Jun", "Kai", "Kang", "Ke", "Kun", "Lan",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zheng", "Zhi", "Zhong", "Zhou", "Zhu", "Zhuan", "Zhui", "Zhun", "Zi", "Zong"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ai", "An", "Bao", "Bei", "Bi", "Bo", "Cai", "Cao", "Chen", "Cheng", "Chi", "Chun", "Cong", "Dai", "Dan", "Ding", "Dong", "En", "Fang", "Fei",
         "Feng", "Fu", "Gao", "Ge", "Guang", "Gui", "Hai", "Han", "Hang", "Hao", "He", "Hong", "Hua", "Huang", "Hui", "Jia", "Jian", "Jiao", "Jie", "Jin",
         "Jing", "Juan", "Jun", "La", "Lan", "Lei", "Li", "Lian", "Liang", "Liao", "Ling", "Liu", "Lixue", "Liya", "Lu", "Luo", "Lv", "Man", "Mei", "Min",
@@ -24,7 +24,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yan", "Yang", "Yi", "Ying", "Yue", "Yun", "Zeng", "Zhang", "Zhao", "Zhen", "Zheng", "Zhi", "Zhong", "Zhou", "Zhu", "Zhuang", "Zou"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Bao", "Cao", "Chang", "Chen", "Cheng", "Chi", "Chong", "Chu", "Cui", "Dai", "Deng", "Ding", "Du", "Duan", "Fang", "Feng", "Fu", "Gao", "Geng", "Gong",
         "Gu", "Guan", "Guo", "Han", "Hao", "He", "Hong", "Hou", "Hu", "Huang", "Ji", "Jia", "Jiang", "Jiao", "Jin", "Jing", "Kang", "Ke", "Lai", "Lan",
         "Lei", "Leng", "Li", "Liang", "Liao", "Lin", "Liu", "Lu", "Luo", "Ma", "Mao", "Mo", "Pan", "Peng", "Qian", "Qiang", "Qin", "Qiu", "Ren", "Ruan",

@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ro_RO;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Ada", "Adela", "Adelaida", "Adelin", "Adelina", "Adina", "Adrian", "Adriana", "Agata", "Aglaia", "Agripina", "Aida", "Albert", "Alberta", "Albertina", "Alexandra", "Alexandrina", "Alexandru", "Alfons", "Alice",
         "Alida", "Alin", "Alina", "Alis", "Alistar", "Alma", "Amalia", "Amanda", "Amelia", "Ana", "Anabela", "Anaida", "Anamaria", "Anastasia", "Anca", "Ancuța", "Anda", "Andra", "Andrada", "Andreea",
         "Anemona", "Aneta", "Angela", "Anghelina", "Anica", "Anișoara", "Antoaneta", "Antonela", "Antonia", "Anuța", "Ariadna", "Ariana", "Arina", "Aristița", "Armin", "Artemisa", "Astrid", "Atena", "Augustina", "Aura",
@@ -33,7 +33,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zenobia", "Zenovia", "Zina", "Zoe", "Zoltan", "Ștefana", "Ștefania"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Achim", "Adam", "Adela", "Adelaida", "Adelin", "Adi", "Adina", "Adonis", "Adrian", "Adriana", "Agatha", "Agnos", "Aida", "Albert", "Aldea", "Aleodor", "Alex", "Alexandru", "Alexe", "Alin",
         "Alina", "Alisa", "Alistar", "Amalia", "Amedeu", "Amira", "Amza", "Ana", "Anamaria", "Anatolie", "Anca", "Anda", "Andreea", "Andrei", "Angel", "Angela", "Anghel", "Anghelina", "Anica", "Aniela",
         "Anisoara", "Antim", "Anton", "Antonia", "Antonie", "Antoniu", "Arian", "Ariana", "Ariela", "Aristide", "Arsenie", "Augustin", "Aurel", "Aurelia", "Aurelian", "Aurică", "Aurora", "Avram", "Axinte", "Aziza",
@@ -59,7 +59,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Xenia", "Zamfir", "Zeno", "Zoe", "Șerban", "Ștefan"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Achim", "Adam", "Albu", "Aldea", "Alexa", "Alexandrescu", "Alexandru", "Alexe", "Andrei", "Anghel", "Antal", "Anton", "Apostol", "Ardelean", "Ardeleanu", "Avram", "Baciu", "Badea", "Balan", "Balint",
         "Banica", "Banu", "Barbu", "Barbulescu", "Bejan", "Belciu", "Biro", "Blaga", "Boboc", "Bodea", "Bogdan", "Bota", "Botezatu", "Bratu", "Bucur", "Buda", "Bunea", "Burlacu", "Buzatu", "Caba",
         "Calin", "Candea", "Capra", "Caragea", "Catana", "Catanescu", "Cazacu", "Chiriac", "Chirila", "Chirita", "Chis", "Chivu", "Cimpeanu", "Cioaba", "Cioara", "Ciobanu", "Ciocan", "Ciolacu", "Cioran", "Ciorba",

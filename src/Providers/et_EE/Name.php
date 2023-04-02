@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\et_EE;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aare", "Aarne", "Aavo", "Ago", "Ahti", "Aimar", "Ain", "Aivar", "Aivo", "Alar", "Alari", "Aleksander", "Aleksandr", "Aleksei", "Alexander", "Alfred", "Allan", "Anatoli", "Anders", "Ando",
         "Andrei", "Andres", "Andrus", "Anton", "Ants", "Ardo", "Ari", "Arne", "Arnold", "Artjom", "Artur", "Arvo", "Boris", "Daniel", "Daniil", "Dmitri", "Eduard", "Eero", "Einar", "Eino",
         "Elmar", "Endel", "Enn", "Enno", "Enrique", "Erik", "Erki", "Ervin", "Evald", "Fjodorov", "Gennadi", "Georg", "Gunnar", "Hanno", "Harald", "Heigo", "Heiki", "Heino", "Heinz", "Helmut",
@@ -17,7 +17,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Valdek", "Valdo", "Valdur", "Valentin", "Valeri", "Vello", "Victor", "Viktor", "Viljar", "Viljo", "Villem", "Villu", "Vilmar", "Vitali", "Vjatšeslav", "Vladimir", "Vladislav", "Voldemar", "Väino", "Ülo"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adele", "Aigi", "Aili", "Aime", "Aino", "Airike", "Aive", "Aleksandra", "Alina", "Alisa", "Alla", "Anastasia", "Anastassia", "Anna", "Anne", "Anneli", "Annika", "Antonina", "Anu", "Arabella",
         "Arina", "Astrid", "Ave", "Birgit", "Darja", "Diana", "Eda", "Edith", "Eha", "Eira", "Eivi", "Ela", "Elena", "Eliisa", "Eliise", "Elina", "Elis", "Elisabeth", "Elle", "Ellen",
         "Elve", "Emma", "Ene", "Epp", "Erna", "Ester", "Eva", "Eve", "Evi", "Galina", "Greete", "Grete", "Hanna", "Hedvig", "Heidi", "Heili", "Hele", "Helen", "Helena", "Helene",
@@ -31,7 +31,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Veera", "Veronika", "Viive", "Viktoria", "Vilja", "Vilve", "Zinaida", "Ülle"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Aare", "Aarma", "Aas", "Aasmäe", "Aav", "Aavik", "Aleksandrov", "Aleksandrova", "Aleksejev", "Aleksejeva", "Allik", "Alver", "Andrejev", "Andrejeva", "Arukask", "Bogdanov", "Bogdanova", "Eenpalu", "Eensaar", "Eiche",
         "Eisen", "Erm", "Ervik", "Eskola", "Fjodorov", "Fjodorova", "Grigorjev", "Grigorjeva", "Haav", "Haavel", "Hagi", "Haller", "Hein", "Hunt", "Härma", "Ilves", "Ivanov", "Ivanova", "Jakobson", "Jakovlev",
         "Jakovleva", "Jegorov", "Jegorova", "Johanson", "Jänes", "Järv", "Järve", "Järvis", "Jõgi", "Jürgenson", "Kaaleste", "Kaasik", "Kadak", "Kalda", "Kaljulaid", "Kaljurand", "Kallas", "Kallaste", "Kangro", "Kangur",

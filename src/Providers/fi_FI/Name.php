@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\fi_FI;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aake", "Aapeli", "Aapo", "Aappo", "Aarne", "Aarni", "Aaro", "Aatto", "Aatu", "Ahti", "Aimo", "Akseli", "Aku", "Aleksi", "Anssi", "Antero", "Antti", "Antton", "Ari", "Arto",
         "Arttu", "Artturi", "Asko", "Atte", "Aune", "Auvo", "Beeda", "Briitta", "Daniel", "Eeli", "Eelis", "Eemeli", "Eero", "Eetu", "Eino", "Ekku", "Elias", "Eljas", "Elmeri", "Elmo",
         "Emil", "Ensio", "Erkki", "Erkko", "Esa", "Eskil", "Esko", "Evert", "Hampus", "Hannu", "Harri", "Heikki", "Helmi", "Hemminki", "Henri", "Henrikki", "Herkko", "Hermanni", "Hugo", "Iiro",
@@ -19,7 +19,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Viljo", "Ville", "Voitto", "Väinö", "Werneri", "Wiljami", "Yrjö"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aada", "Aamu", "Ada", "Aina", "Aino", "Aira", "Airi", "Aki", "Aliina", "Aliisa", "Amalia", "Amanda", "Amelia", "Amira", "Anissa", "Anita", "Anna", "Anne", "Anni", "Anniina",
         "Annikki", "Annilotta", "Annu", "Anu", "Asta", "Astrid", "Atte", "Auli", "Aune", "Aura", "Aurora", "Bella", "Cara", "Celina", "Christa", "Christel", "Clara", "Cornelia", "Dani", "Eerika",
         "Eeva", "Eevi", "Eija", "Eila", "Eini", "Eira", "Elea", "Eliina", "Elina", "Elisa", "Elise", "Ella", "Ellen", "Elma", "Elsi", "Elviira", "Emilia", "Emma", "Emmaliina", "Emmi",
@@ -37,7 +37,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vilma", "Wilma"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Aakula", "Aalto", "Aaltonen", "Aarnio", "Aaronen", "Aavikkola", "Ahmala", "Aho", "Ahokas", "Ahola", "Ahomaa", "Ahonen", "Ahoniemi", "Ahopelto", "Ahovaara", "Ahtila", "Ahtiluoto", "Ahtio", "Ahtisaari", "Ahto",
         "Ahtola", "Ahtonen", "Ahtorinne", "Aija", "Aijala", "Ainola", "Airaksinen", "Aitio", "Aitolahti", "Aitomaa", "Aittasalmi", "Akkala", "Akkanen", "Ala-aho", "Alahuhta", "Alajoki", "Alajärvi", "Alakoski", "Alanen", "Alanko",
         "Alapuro", "Alasalmi", "Alatalo", "Alho", "Alhola", "Alijoki", "Alén", "Ankkala", "Ankkuri", "Annala", "Annunen", "Anttila", "Anttinen", "Anttonen", "Ara", "Arhila", "Arhinmäki", "Arhosuo", "Arinen", "Arjamaa",

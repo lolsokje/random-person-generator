@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\fa_IR;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Ahmad", "Akbar", "Ali", "Alireza", "Amir", "Amirhossein", "Arash", "Arman", "Armin", "Arshia", "Arya", "Ashkan", "Babak", "Bahman", "Behnam", "Behrouz", "Bijan", "Dariush", "Davood", "Ebrahim",
         "Ehsan", "Emad", "Erfan", "Farhad", "Farhang", "Farid", "Farrokh", "Fereydoon", "Hadi", "Hamed", "Hamid", "Hassan", "Hesam", "Hooman", "Hossein", "Jafar", "Jahan", "Jalal", "Jamshid", "Javad",
         "Kamran", "Kamyar", "Karim", "Kazem", "Keyvan", "Khashayar", "Kian", "Kourosh", "Mahdi", "Majid", "Mansour", "Masoud", "Maziar", "Mehdi", "Mehran", "Mojtaba", "Mostafa", "Nader", "Navid", "Nima",
@@ -12,7 +12,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Siavash", "Sina", "Soheil", "Soroush", "Taghi", "Taher", "Vahid", "Yashar", "Yazdan", "Younes", "Yousef", "Yousefi", "Zahra", "Zia", "Zohreh", "Zolfaghar", "Zubin"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Afsaneh", "Afsoon", "Aida", "Atefeh", "Azadeh", "Azam", "Azar", "Bahar", "Banafsheh", "Behnaz", "Bita", "Darya", "Delara", "Donya", "Elaheh", "Elham", "Elina", "Elnaz", "Eshrat", "Faezeh",
         "Faranak", "Fariba", "Farideh", "Farzaneh", "Fatemeh", "Fereshteh", "Firoozeh", "Gisoo", "Golbarg", "Golnaz", "Haleh", "Hanieh", "Hasti", "Hengameh", "Hoda", "Homa", "Houra", "Iran", "Jaleh", "Jannat",
         "Katayoun", "Kiana", "Kimia", "Ladan", "Leila", "Leyla", "Mahsa", "Mahtab", "Mandana", "Manizheh", "Maral", "Marjan", "Maryam", "Mehr", "Mehrnaz", "Mina", "Mitra", "Mojgan", "Mona", "Naghmeh",
@@ -21,7 +21,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Sima", "Sogand", "Soma", "Soodabeh", "Soudeh", "Souzan", "Tahmineh", "Tala", "Tara", "Taraneh", "Tarin", "Tina", "Zahra", "Zainab", "Zari", "Zarrin", "Zeynab", "Zhaleh", "Ziba", "Zohreh"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abbasi", "Afshar", "Ahmadi", "Akbari", "Alavi", "Amini", "Amiri", "Asadi", "Azimi", "Babaei", "Bahrami", "Baradaran", "Dadkhah", "Dadvar", "Daneshmand", "Ebrahimi", "Emami", "Esmaeili", "Falahati", "Farahani",
         "Faraji", "Fard", "Fathi", "Ghafari", "Gharib", "Ghasemi", "Gholami", "Habibi", "Haghshenas", "Hajizadeh", "Hashemi", "Heidari", "Hosseini", "Izadi", "Jafari", "Jamshidi", "Javadi", "Kamali", "Karimi", "Kazemi",
         "Kermani", "Khajehpour", "Khalili", "Khosravi", "Kiani", "Maleki", "Mansouri", "Mazaheri", "Mehdizadeh", "Mirzaei", "Mohammadi", "Mojtabaei", "Moradi", "Mousavi", "Nabavi", "Naderi", "Naghavi", "Najafi", "Nasiri", "Nasseri",

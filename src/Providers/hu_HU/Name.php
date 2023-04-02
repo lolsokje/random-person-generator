@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\hu_HU;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Albert", "Andor", "András", "Antal", "Attila", "Balázs", "Barna", "Barnabás", "Bence", "Bendegúz", "Benedek", "Benjámin", "Botond", "Béla", "Csaba", "Domonkos", "Dorián", "Dániel", "Dávid", "Dénes",
         "Dömötör", "Eduárd", "Edvin", "Endre", "Ernő", "Ferenc", "Feró", "Fülöp", "Gedeon", "Gergely", "Gusztáv", "Gyula", "Gyuri", "Gábor", "Géza", "Hunor", "Ignác", "Imre", "István", "Jenő",
         "Jácint", "János", "József", "Kasimir", "Kazimír", "Kelemen", "Kevin", "Kornél", "Kristóf", "Kálmán", "Károly", "Levente", "Leó", "László", "Lóránd", "Lőrinc", "Mihály", "Miklós", "Milán", "Márió",
@@ -13,7 +13,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ábel", "Ádám", "Ákos", "Ármin", "Áron", "Árpád", "Ödön"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adrienn", "Adél", "Alexa", "Alida", "Amália", "Anasztázia", "Andrea", "Anett", "Angéla", "Anikó", "Anna", "Antónia", "Apolónia", "Aranka", "Aurélia", "Barbara", "Beatrix", "Bettina", "Beáta",
         "Bianka", "Boglárka", "Boróka", "Brigitta", "Béla", "Cecília", "Csenge", "Dalma", "Dorina", "Dorottya", "Dóra", "Edina", "Edit", "Ela", "Elena", "Eleonóra", "Eliza", "Emőke", "Erzsébet", "Evelin",
         "Fanni", "Fatime", "Felicitász", "Flóra", "Friderika", "Gabriella", "Georgina", "Gitta", "Gizella", "Gréta", "Gyöngyi", "Hajnalka", "Hanga", "Hanna", "Hedvig", "Heléna", "Henriett", "Henrietta", "Hilda", "Ilona",
@@ -25,7 +25,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zita", "Zsanett", "Zsuzsa", "Zsófia", "Zsóka", "Ágnes", "Éva"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Ada", "Adrienn", "Adél", "Alida", "Amália", "Anasztázia", "Anett", "Angéla", "Anikó", "Anna", "Antal", "Antónia", "Apolónia", "Aurélia", "Bakos", "Balla", "Balog", "Balogh", "Balázs", "Barbara",
         "Barna", "Barta", "Beáta", "Bianka", "Biró", "Bodnár", "Bogdán", "Boglárka", "Bognár", "Borbély", "Boros", "Brigitta", "Budai", "Bálint", "Béla", "Cecília", "Csenge", "Csonka", "Deák", "Dobos",
         "Dorina", "Dorottya", "Dudás", "Dóra", "Edina", "Edit", "Ela", "Elena", "Eleonóra", "Eliza", "Fanni", "Faragó", "Farkas", "Fatime", "Fazekas", "Fehér", "Fekete", "Felicitász", "Flóra", "Fodor",

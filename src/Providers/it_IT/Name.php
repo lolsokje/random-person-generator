@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\it_IT;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aaron", "Abramo", "Achille", "Adriano", "Akira", "Alan", "Alberto", "Albino", "Alessandro", "Alessio", "Alfonso", "Alighieri", "Alighiero", "Amedeo", "Amerigo", "Amos", "Anastasio", "Andrea", "Angelo", "Anselmo",
         "Antimo", "Antonino", "Antonio", "Arcibaldo", "Arduino", "Ariel", "Armando", "Aroldo", "Artes", "Arturo", "Audenico", "Augusto", "Aurelio", "Ausonio", "Bacchisio", "Baldassarre", "Bartolomeo", "Battista", "Bernardo", "Bettino",
         "Boris", "Bortolo", "Bruno", "Caio", "Caligola", "Carlo", "Carmelo", "Carmine", "Cecco", "Cesare", "Christian", "Cirino", "Ciro", "Claudio", "Cleros", "Costantino", "Costanzo", "Damiano", "Daniele", "Danny",
@@ -23,7 +23,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ulrico", "Umberto", "Valdo", "Valentino", "Vasco", "Vincenzo", "Vinicio", "Virgilio", "Walter", "Xavier", "Yago", "Zaccaria"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Alessandra", "Alice", "Ambra", "Angela", "Angelica", "Angelina", "Anna", "Antonella", "Arianna", "Artemide", "Assia", "Aurora", "Benedetta", "Bianca", "Bibiana", "Brigitta", "Camilla", "Carlotta", "Carmela", "Carolina",
         "Cassiopea", "Caterina", "Cecilia", "Celeste", "Cesidia", "Chiara", "Cinzia", "Cira", "Clara", "Claudia", "Clea", "Cleopatra", "Clodovea", "Concetta", "Cosetta", "Cristina", "Cristyn", "Damiana", "Daniela", "Danuta",
         "Debora", "Deborah", "Demi", "Diamante", "Diana", "Donatella", "Dora", "Doriana", "Edvige", "Elda", "Elena", "Eleonora", "Elga", "Elisabetta", "Elsa", "Emanuela", "Emilia", "Emma", "Enrica", "Erica",
@@ -38,7 +38,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Virginia", "Vitalba", "Vittoria", "Ylenia", "Zelida"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Amato", "Barbieri", "Barone", "Basile", "Battaglia", "Bellini", "Benedetti", "Benvenuti", "Bernardi", "Bertolini", "Bertolucci", "Bianchi", "Bianco", "Brunetti", "Bruno", "Caputo", "Carbone", "Carraro", "Caruso", "Cattaneo",
         "Cipriani", "Colombo", "Conte", "Conti", "Coppola", "Corti", "Costa", "Costantini", "Costantino", "Costanzo", "Crespo", "D'amico", "D'angelo", "Damico", "De Angelis", "De Luca", "De Rosa", "De Santis", "De luca", "De rosa",
         "Della Rocca", "Donati", "Esposito", "Fabbri", "Fabbrini", "Falcone", "Farina", "Fasano", "Fava", "Fazio", "Ferrara", "Ferrari", "Ferraro", "Ferretti", "Ferri", "Fiore", "Fontana", "Fusco", "Galli", "Gallo",

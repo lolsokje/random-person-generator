@@ -2,9 +2,12 @@
 
 namespace LilPecky\DriverGenerator\Providers\is_IS;
 
+use LilPecky\DriverGenerator\Support\Gender;
+use LilPecky\DriverGenerator\Support\Random;
+
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aage", "Abel", "Abraham", "Adam", "Addi", "Adel", "Adrían", "Adríel", "Adíel", "Adólf", "Agnar", "Agni", "Albert", "Aldar", "Alex", "Alexander", "Alexíus", "Alfons", "Alfred", "Alfreð",
         "Ali", "Allan", "Alli", "Almar", "Alrekur", "Alvar", "Alvin", "Amos", "Amír", "Anders", "Andreas", "Andri", "André", "Andrés", "Anes", "Anfinn", "Angantýr", "Angi", "Annar", "Annarr",
         "Annas", "Annel", "Annes", "Anthony", "Anton", "Antoníus", "Aran", "Arent", "Ares", "Ari", "Arilíus", "Arinbjörn", "Arnald", "Arnaldur", "Arnar", "Arnberg", "Arnbergur", "Arnbjörn", "Arndór", "Arnes",
@@ -98,7 +101,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Þórólfur", "Þórörn"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aagot", "Abela", "Abigael", "Ada", "Adda", "Addý", "Adela", "Adelía", "Adríana", "Agata", "Agatha", "Agla", "Agnea", "Agnes", "Agneta", "Agða", "Alanta", "Alba", "Alberta", "Albína",
         "Alda", "Aldný", "Aldís", "Aleta", "Aletta", "Alexa", "Alexandra", "Alexandría", "Alexis", "Alexía", "Alfa", "Alfífa", "Alice", "Alida", "Alla", "Allý", "Alma", "Alrún", "Alva", "Alvilda",
         "Alída", "Alína", "Alís", "Alísa", "Amadea", "Amal", "Amalía", "Amanda", "Amelía", "Amilía", "Amy", "Amíra", "Amý", "Analía", "Anastasía", "Andra", "Andrea", "Andrá", "Anetta", "Angela",
@@ -199,7 +202,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Þórhildur", "Þórkatla", "Þórlaug", "Þórleif", "Þórný", "Þórodda", "Þórsteina", "Þórsteinunn", "Þórstína", "Þórunn", "Þórveig", "Þórvör", "Þórða", "Þöll", "Þúfa"
     ];
 
-    protected static array $middleNames = [
+    public static array $middleNames = [
         "Aldan", "Arnberg", "Arnfjörð", "Austan", "Austdal", "Austfjörð", "Aðaldal", "Bakkdal", "Bakkmann", "Bald", "Ben", "Bergholt", "Bergland", "Bjarg", "Bjarndal", "Bjarnfjörð", "Bláfeld", "Blómkvist", "Borgdal", "Brekkmann",
         "Brim", "Brúnsteð", "Bíldsfells", "Dalhoff", "Dan", "Diljan", "Ektavon", "Eldberg", "Elvan", "Elísberg", "Espólín", "Eyhlíð", "Eyvík", "Falk", "Finndal", "Fossberg", "Freydal", "Friðhólm", "Giljan", "Gilsfjörð",
         "Gnarr", "Gnurr", "Grendal", "Grindvík", "Gull", "Haffjörð", "Hafnes", "Hafnfjörð", "Har", "Heimdal", "Heimsberg", "Helgfell", "Herberg", "Hildiberg", "Hjaltdal", "Hlíðkvist", "Hnappdal", "Hnífsdal", "Hofland", "Hofteig",
@@ -209,4 +212,27 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Val", "Valagils", "Vald", "Varmdal", "Vatnsfjörð", "Vattar", "Vattnes", "Viðfjörð", "Vopnfjörð", "Vídalín", "Víking", "Yngling", "Áss", "Íshólm", "Ólfjörð", "Ósland", "Ósmann", "Önfjörð", "Örbekk", "Öxdal",
         "Öxndal", "Þor"
     ];
+
+    public function familyName(?Gender $gender = Gender::MALE): string
+    {
+        $preparedName = $this->prepareFamilyName();
+        $suffix = $gender === Gender::MALE ? 'son' : 'dóttir';
+
+        return $preparedName . $suffix;
+    }
+
+    private function prepareFamilyName(): string
+    {
+        $name = Random::element(static::$givenNamesMale);
+
+        if (str_ends_with($name, 'ur')) {
+            $name = substr($name, 0, strlen($name) - 2);
+        }
+
+        if (!str_ends_with($name, 's')) {
+            $name .= 's';
+        }
+
+        return $name;
+    }
 }

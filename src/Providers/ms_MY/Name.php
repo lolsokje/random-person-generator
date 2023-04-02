@@ -4,13 +4,13 @@ namespace LilPecky\DriverGenerator\Providers\ms_MY;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Ahmad", "Aiman", "Amin", "Amir", "Arif", "Asyraf", "Azim", "Azlan", "Badrul", "Danial", "Faisal", "Faiz", "Faris", "Fauzi", "Firdaus", "Hafiz", "Hamzah", "Haris", "Hisham",
         "Ikhwan", "Imran", "Ismail", "Kamarul", "Khairul", "Luqman", "Mahathir", "Muzaffar", "Naim", "Nasrullah", "Nizar", "Nor Azmi", "Nurul", "Rahman", "Razif", "Ridwan", "Ruslan", "Salleh", "Sufian", "Sulaiman",
         "Sultan", "Syahrul", "Syed", "Tarmizi", "Taufik", "Tengku", "Umar", "Wan", "Yahya", "Yusof", "Zahid", "Zain", "Zaki", "Zakuan", "Zulkifli"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aina", "Ainun", "Aisha", "Alia", "Alicia", "Amelia", "Amira", "Anis", "Aqeela", "Ariana", "Arianna", "Arissa", "Asha", "Auni", "Aurora", "Azalea", "Balqis", "Cassandra", "Celine", "Chloe",
         "Dahlia", "Dania", "Daphne", "Dayana", "Diana", "Dina", "Elaine", "Eliza", "Ellie", "Elysha", "Emilia", "Erika", "Fara", "Farah", "Fasha", "Fatimah", "Felicia", "Fiona", "Gina", "Hana",
         "Hani", "Hanna", "Hazirah", "Humaira", "Iffah", "Iliana", "Inara", "Intan", "Irdina", "Iris", "Izzah", "Jannah", "Jasmine", "Jenna", "Jessica", "Jia", "Joanna", "Juliana", "Kaitlyn", "Kamariah",
@@ -20,7 +20,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Siti", "Sofia", "Sofiya", "Soraya", "Sya", "Syahira", "Syakila", "Tania", "Tasha", "Tasneem", "Tessa", "Tia", "Tiara", "Tisya", "Trixie", "Umairah", "Winnie", "Yasmin"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abdullah", "Abu Bakar", "Ahmad", "Ali", "Ariffin", "Aziz", "Baharudin", "Basri", "Cheong", "Chin", "Chong", "Chua", "Fong", "Gan", "Goh", "Hassan", "Heng", "Hiew", "Ho", "Ibrahim",
         "Ismail", "Jalil", "Jamil", "Jaya", "Johari", "Kamal", "Kamarudin", "Kee", "Khoo", "Khor", "Kong", "Kwok", "Lam", "Lee", "Leong", "Lim", "Ling", "Loh", "Low", "Mansor",
         "Mat", "Mohamad", "Mohamed", "Mohd", "Mohd Yusof", "Mok", "Muda", "Musa", "Mustafa", "Nair", "Nathan", "Nazir", "Ng", "Ngo", "Nor", "Ong", "Pang", "Phang", "Phua", "Quah",

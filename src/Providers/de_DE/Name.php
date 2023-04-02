@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\de_DE;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Achim", "Adalbert", "Adam", "Adrian", "Ahmed", "Ahmet", "Albert", "Albin", "Albrecht", "Alex", "Alexander", "Alfons", "Alfred", "Ali", "Alois", "Aloys", "Alwin", "Anatoli", "Andre", "Andreas",
         "Andree", "Andrej", "Andrzej", "André", "Andy", "Angelo", "Ansgar", "Anton", "Antonio", "Antonius", "Armin", "Arnd", "Arndt", "Arne", "Arno", "Arnold", "Arnulf", "Arthur", "Artur", "August",
         "Axel", "Bastian", "Ben", "Benedikt", "Benjamin", "Bennet", "Benno", "Bernard", "Bernd", "Berndt", "Bernhard", "Bert", "Berthold", "Bertram", "Björn", "Bodo", "Bogdan", "Boris", "Bruno", "Burghard",
@@ -34,7 +34,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Wenzel", "Werner", "Wieland", "Wilfried", "Wilhelm", "Willi", "William", "Willibald", "Willy", "Winfried", "Wladimir", "Wolf", "Wolf-Dieter", "Wolfgang", "Wolfram", "Wulf", "Xaver", "Yusuf"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adele", "Adelheid", "Agathe", "Agnes", "Alexandra", "Alice", "Alma", "Almut", "Aloisia", "Alwine", "Amalie", "Amelie", "Ana", "Anastasia", "Andrea", "Anett", "Anette", "Angela", "Angelika", "Anika",
         "Anita", "Anja", "Anke", "Anna", "Anna-Maria", "Anne", "Annegret", "Annelie", "Annelies", "Anneliese", "Annelore", "Annemarie", "Annerose", "Annett", "Annette", "Anni", "Annika", "Anny", "Antje", "Antonia",
         "Antonie", "Ariane", "Astrid", "Auguste", "Ayse", "Babette", "Barbara", "Beate", "Beatrice", "Beatrix", "Bernadette", "Berta", "Bettina", "Betty", "Bianca", "Bianka", "Birgit", "Birgitt", "Birgitta", "Birte",
@@ -63,7 +63,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Veronika", "Viktoria", "Viola", "Walburga", "Wally", "Waltraud", "Waltraut", "Wanda", "Wendelin", "Wera", "Wiebke", "Wilhelmine", "Wilma", "Wiltrud", "Yvonne", "Änne"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Ackermann", "Adam", "Adler", "Ahrens", "Albers", "Albert", "Albrecht", "Altmann", "Anders", "Appel", "Arndt", "Arnold", "Auer", "Bach", "Bachmann", "Bader", "Baier", "Bartels", "Barth", "Barthel",
         "Bartsch", "Bauer", "Baum", "Baumann", "Baumgartner", "Baur", "Bayer", "Beck", "Becker", "Beckmann", "Beer", "Behrendt", "Behrens", "Beier", "Bender", "Benz", "Berg", "Berger", "Bergmann", "Berndt",
         "Bernhardt", "Bertram", "Betz", "Beyer", "Binder", "Bischoff", "Bittner", "Blank", "Block", "Blum", "Bock", "Bode", "Born", "Brand", "Brandl", "Brandt", "Braun", "Brenner", "Breuer", "Brinkmann",

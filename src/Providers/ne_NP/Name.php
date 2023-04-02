@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ne_NP;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aadarsh", "Aadesh", "Aaditya", "Aakash", "Aanand", "Aarav", "Abud", "Achyut", "Ajay", "Ajit", "Akhil", "Akshar", "Akshay", "Alok", "Amar", "Amir", "Amit", "Amod", "Amrit", "Amulya",
         "Ananta", "Angel", "Angikar", "Anil", "Ankit", "Ankur", "Anmol", "Anshu", "Anuj", "Arjun", "Arun", "Ashish", "Ashok", "Ashutosh", "Atal", "Avinash", "Ayush", "Babish", "Badal", "Badri",
         "Baibhav", "Bhagwam", "Bhakti", "Bhanu", "Bibek", "Bicky", "Bidur", "Bidwan", "Bikal", "Bikash", "Bikesh", "Bikram", "Bimal", "Binamra", "Binay", "Bipin", "Biplav", "Bipul", "Biraj", "Birendra",
@@ -21,7 +21,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Trilochan", "Uday", "Udit", "Ujjwal", "Umesh", "Uttam", "Yogendra", "Yogesh", "Yuvaraj"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aakansha", "Aanchal", "Aarati", "Aasha", "Aashika", "Aashma", "Aayusha", "Alisha", "Ambika", "Amrita", "Anamika", "Anisha", "Anita", "Anjali", "Anjana", "Anjela", "Anjila", "Anju", "Ankita", "Ansu",
         "Anu", "Anupa", "Anupama", "Anushree", "Anuska", "Apeksha", "Archana", "Arpita", "Aruna", "Asha", "Asmita", "Babita", "Bandita", "Barsa", "Bhawana", "Bimala", "Bina", "Bindu", "Binita", "Bipana",
         "Bishnu", "Chadani", "Chameli", "Champa", "Chandana", "Damini", "Deepa", "Deepti", "Depika", "Devi", "Dibya", "Diksha", "Dilmaya", "Dipa", "Dipshika", "Durga", "Ganga", "Garima", "Gauri", "Geeta",
@@ -36,7 +36,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Sumnima", "Sunila", "Surakshya", "Susma", "Susmita", "Suyesha", "Swechchha", "Tara", "Tulsi", "Uma", "Urbasi", "Urmila", "Usha", "Vandana", "Yami", "Yasodha", "Yushma"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Acharya", "Adhikari", "Agarwal", "Amatya", "Aryal", "Baidya", "Bajracharya", "Balami", "Banepali", "Baniya", "Banjade", "Baral", "Basnet", "Bastakoti", "Bastola", "Basyal", "Belbase", "Bhandari", "Bhatta", "Bhattarai",
         "Bhusal", "Bijukchhe", "Bisht", "Bista", "Bohara", "Budathoki", "Byanjankar", "Chalise", "Chamling", "Chapagain", "Chaudhary", "Chaulagain", "Chhetri", "Dahal", "Dangol", "Dawadi", "Devkota", "Dhakal", "Dhamla", "Dhaubhadel",
         "Dhungel", "Dulal", "Gauchan", "Gautam", "Ghale", "Ghimire", "Giri", "Golchha", "Gurung", "Gyalzen", "Gyawali", "Hamal", "Himanshu", "Humagain", "Jha", "Joshi", "KC", "Kafle", "Kandel", "Kansakar",

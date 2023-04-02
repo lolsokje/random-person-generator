@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ru_RU;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Afanasy", "Agafon", "Aleksei", "Alexander", "Anatoly", "Andrei", "Anisim", "Anton", "Aristarkh", "Arkhip", "Arseny", "Artem", "Artur", "Averky", "Bogdan", "Boris", "Daniil", "David", "Denis", "Dmitri",
         "Eduard", "Efim", "Egor", "Emil", "Eremey", "Ernest", "Evgeny", "Fedor", "Foma", "Gabriel", "Gavriil", "Gennady", "Georgy", "German", "Gleb", "Gordei", "Grigoriy", "Grigory", "Ignat", "Igor",
         "Ilarion", "Ilya", "Innokenty", "Isidor", "Ivan", "Khariton", "Kiprian", "Kirill", "Konstantin", "Kuzma", "Lazar", "Leonid", "Luka", "Makar", "Maksim", "Matvei", "Maximilian", "Mefody", "Mikhail", "Miron",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yevsey", "Yuri", "Zahar", "Zinovy", "Zosima"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adelaida", "Adriana", "Agafiya", "Agnessa", "Agrippina", "Akilina", "Albina", "Aleksandra", "Alena", "Alevtina", "Alfiya", "Alina", "Alisa", "Alla", "Anastasia", "Anastasiya", "Angelina", "Anna", "Antonina", "Anzhela",
         "Ariadna", "Ariana", "Astra", "Avdotya", "Azalea", "Barbara", "Belinda", "Bogdana", "Borislavka", "Borisoglebskaya", "Briana", "Bronislava", "Daria", "Darina", "Diana", "Dina", "Ekaterina", "Elena", "Elizaveta", "Evgeniya",
         "Galina", "Inna", "Irina", "Kapitolina", "Karina", "Kira", "Klara", "Ksenia", "Lada", "Larisa", "Lidiya", "Liliya", "Liza", "Lyubov", "Margarita", "Maria", "Marina", "Marta", "Milana", "Nadezhda",
@@ -23,7 +23,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yekaterina", "Yelena", "Yevdokiya", "Yevgeniya", "Yevpraksiya", "Yevstoliya", "Yevstratiya", "Yevsyukova", "Ylona", "Yudita", "Yulia", "Yuliya", "Yulya", "Yuna", "Yustina", "Zabelina", "Zarina", "Zinaida", "Zlata", "Zoya"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abramov", "Abramova", "Afanasiev", "Afonina", "Aksenova", "Alekseev", "Alexandrova", "Andreev", "Anisimova", "Antonov", "Baranov", "Baranova", "Belova", "Bogdanov", "Bogdanova", "Borisov", "Borisova", "Borodin", "Borodina", "Chernov",
         "Chernova", "Danilov", "Danilova", "Davydov", "Davydova", "Dmitriev", "Dmitrieva", "Dubrov", "Dubrovsky", "Efimov", "Egorov", "Fedorov", "Filippov", "Gavrilov", "Golubev", "Gordeev", "Gubanov", "Ivanov", "Kalinin", "Kapustin",
         "Karpov", "Kazakov", "Kiselev", "Klimov", "Kochetkov", "Kolesnikov", "Kolpakov", "Kondratiev", "Konovalov", "Korolev", "Koshelev", "Kostin", "Kovalev", "Kozlov", "Krasnov", "Krylov", "Kuznetsov", "Lebedev", "Leontiev", "Lobanov",

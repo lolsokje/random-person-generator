@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\sv_SE;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Abraham", "Adam", "Adrian", "Agaton", "Agne", "Albert", "Albin", "Aldor", "Alex", "Alexander", "Alexis", "Alexius", "Alf", "Alfons", "Alfred", "Algot", "Allan", "Alrik", "Alvar", "Alve",
         "Amandus", "Anders", "Andreas", "André", "Anselm", "Anshelm", "Antero", "Anton", "Antonius", "Arne", "Arnold", "Aron", "Arthur", "Artur", "Arvid", "Assar", "Astor", "August", "Augustin", "Axel",
         "Bengt", "Bengt-Göran", "Bengt-Olof", "Bengt-Åke", "Benjamin", "Benny", "Berndt", "Berne", "Bernhard", "Bernt", "Bert", "Berth", "Berthold", "Bertil", "Bill", "Billy", "Birger", "Bjarne", "Björn", "Bo",
@@ -34,7 +34,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Xander", "Yngve", "Yonas", "Zacharias", "Åke", "Örjan", "Östen"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adela", "Adele", "Adelia", "Adina", "Adolfina", "Adéle", "Agda", "Agnes", "Agneta", "Aina", "Aino", "Albertina", "Alexandra", "Alfhild", "Alfrida", "Alice", "Alida", "Ally", "Alma",
         "Alva", "Amalia", "Amanda", "Amelia", "Andrea", "Anette", "Angela", "Anita", "Anja", "Ann", "Ann-Britt", "Ann-Charlott", "Ann-Charlotte", "Ann-Christin", "Ann-Christine", "Ann-Katrin", "Ann-Kristin", "Ann-Louise", "Ann-Margret", "Ann-Mari",
         "Ann-Marie", "Ann-Sofi", "Ann-Sofie", "Anna", "Anna-Carin", "Anna-Greta", "Anna-Karin", "Anna-Lena", "Anna-Lisa", "Anna-Maria", "Anna-Stina", "Anne", "Anne-Charlotte", "Anne-Marie", "Anneli", "Annelie", "Annette", "Anni", "Annica", "Annie",
@@ -63,7 +63,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Viveka", "Vivi", "Vivi-Ann", "Vivi-Anne", "Vivian", "Viviann", "Vivianne", "Wilhelmina", "Ylva", "Yvonne", "Älva", "Åsa", "Åse", "Örjan"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abrahamsson", "Ahlberg", "Alm", "Andersson", "Andreasson", "Arvidsson", "Axelsson", "Bengtsson", "Berg", "Berggren", "Berglund", "Bergman", "Bergqvist", "Bergström", "Björk", "Björklund", "Blom", "Blomqvist", "Carlsson", "Claesson",
         "Dahl", "Dahlberg", "Danielsson", "Ek", "Eklund", "Ekström", "Eliasson", "Engström", "Eriksson", "Falk", "Forsberg", "Fransson", "Fredriksson", "Gunnarsson", "Gustafsson", "Haglund", "Hall", "Hallberg", "Hansen", "Hansson",
         "Hedlund", "Hellström", "Henriksson", "Hermansson", "Holm", "Holmberg", "Holmgren", "Holmqvist", "Håkansson", "Isaksson", "Ivarsson", "Jakobsson", "Jansson", "Johansson", "Jonasson", "Jonsson", "Jönsson", "Karlsson", "Kjellberg", "Kjellström",

@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\hr_HR;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Adam", "Adrian", "Alan", "Aleksandar", "Alen", "Andrej", "Andrija", "Ante", "Anton", "Antonio", "Antun", "Augustin", "Bartol", "Benedikt", "Benjamin", "Blaž", "Bogdan", "Boris", "Borna", "Božidar",
         "Branislav", "Bruno", "Damjan", "Daniel", "Danijel", "Danko", "Dario", "David", "Denis", "Dinko", "Dino", "Domagoj", "Dominik", "Dorian", "Dorijan", "Dragan", "Dražen", "Duje", "Dušan", "Edi",
         "Emanuel", "Emil", "Filip", "Fran", "Frane", "Franjo", "Franko", "Gabriel", "Gabrijel", "Goran", "Grgur", "Hrvoje", "Igor", "Ilija", "Ivan", "Ivano", "Ivica", "Ivor", "Jakov", "Jakša",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Živko"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Adela", "Adriana", "Agata", "Ana", "Anamarija", "Anastazija", "Andrea", "Anita", "Anja", "Antonela", "Antonija", "Anđela", "Barbara", "Bernarda", "Božica", "Branka", "Danica", "Darija", "Diana", "Dora",
         "Dorotea", "Doroteja", "Dubravka", "Dunja", "Džana", "Edita", "Ela", "Elena", "Ella", "Ema", "Ena", "Eva", "Franka", "Gabrijela", "Gordana", "Hana", "Helena", "Ines", "Irena", "Iris",
         "Iva", "Ivana", "Ivona", "Jadranka", "Jana", "Janja", "Jasenka", "Jasminka", "Jelena", "Jerka", "Josipa", "Kaja", "Karla", "Karmen", "Katarina", "Katja", "Klara", "Klaudija", "Korina", "Kornelija",
@@ -26,7 +26,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vlatka", "Zdravka", "Zlata", "Zrinka", "Žana", "Željana", "Željka"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abramović", "Adamić", "Antić", "Antunović", "Babić", "Blažević", "Bogdanić", "Bogdanović", "Bošnjak", "Božić", "Brezovec", "Brkić", "Brož", "Delić", "Domitrović", "Dragić", "Dragović", "Filipović", "Franić", "Franjić",
         "Galić", "Grgić", "Horvat", "Horvatinčić", "Ivanković", "Ivanović", "Janković", "Jelić", "Jerčić", "Jurić", "Juriša", "Kaić", "Kasun", "Knežević", "Kovač", "Kovačević", "Kovačić", "Košar", "Kralj", "Kranjčar",
         "Kranjčević", "Križanac", "Krupić", "Kušec", "Leš", "Lovren", "Lovrić", "Lučić", "Mandić", "Mandžukić", "Maras", "Marić", "Marković", "Martinović", "Marušić", "Matijašević", "Matić", "Mikulić", "Milić", "Miličević",

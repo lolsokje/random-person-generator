@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\lt_LT;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Abramas", "Abraomas", "Achilas", "Adalbertas", "Adamas", "Adas", "Adolfas", "Adolis", "Adomas", "Adrijus", "Agatas", "Agnius", "Aidas", "Ainius", "Aistis", "Aivaras", "Akimas", "Akvilinas", "Albertas", "Albinas",
         "Albrechtas", "Aldonas", "Aleksandras", "Aleksas", "Alenas", "Alfas", "Alfonsas", "Alfredas", "Algimantas", "Algirdas", "Algis", "Alius", "Almantas", "Almis", "Almonas", "Aloyzas", "Alpas", "Alpis", "Alvidas", "Alvydas",
         "Ambraziejus", "Anatolijus", "Anatolis", "Andreas", "Andriejus", "Andrius", "Andžejus", "Anicetas", "Anisimas", "Antanas", "Antonas", "Antonijus", "Antonis", "Anupras", "Anzelmas", "Apolinaras", "Apolonijus", "Aras", "Arijus", "Arimantas",
@@ -50,7 +50,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Žydrūnas", "Žygaudas", "Žygimantas", "Žygintas", "Žygis", "Žymantas"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adelija", "Adelina", "Adelė", "Adolfa", "Adolfina", "Adriana", "Adrija", "Adrijana", "Agata", "Agnetė", "Agnietė", "Agnieška", "Agnija", "Agnė", "Agota", "Agripina", "Aida", "Aidė", "Aimana",
         "Aimantė", "Aina", "Ainė", "Airida", "Airė", "Aistra", "Aistė", "Aitra", "Aivara", "Akvilina", "Akvilė", "Alana", "Alanta", "Alberta", "Albertina", "Albina", "Alda", "Aldona", "Aleksandra", "Aleksandrina",
         "Aleksė", "Aleta", "Alfonsa", "Alfonsė", "Alfreda", "Algimanta", "Algimantė", "Algina", "Algirdė", "Algutė", "Algė", "Alicija", "Alina", "Aliodija", "Aliona", "Alisa", "Alma", "Alona", "Aloyza", "Alva",
@@ -108,7 +108,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Žibuoklė", "Žibutė", "Žiedė", "Žilvinė", "Živilė", "Žoržeta", "Žydronė", "Žydrė", "Žydrūnė", "Žygimantė", "Žyginta", "Žymantė"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Adamkus", "Aleksa", "Bajoras", "Balčiūnas", "Baranauskas", "Bartkus", "Brazauskas", "Butkus", "Dambrauskas", "Dovydaitis", "Gailius", "Gedgaudas", "Giedraitis", "Girnius", "Gudaitis", "Ivanovas", "Jankauskas", "Janušaitis", "Jonauskas", "Juozapaitis",
         "Juška", "Kairys", "Kazlauskas", "Kazokas", "Klimas", "Kubilius", "Kudirka", "Kukauskas", "Landsbergis", "Lapė", "Laurinaitis", "Lukoševičius", "Macijauskas", "Makauskas", "Malinauskas", "Margevičius", "Matulaitis", "Mazuronis", "Mačiulis", "Mickevičius",
         "Mikalauskas", "Mikulėnas", "Milaknis", "Mockus", "Morkūnas", "Navickas", "Norkus", "Oželis", "Pakalniškis", "Paplauskas", "Pavilonis", "Petrauskas", "Pečiulis", "Pocius", "Rackauskas", "Ragauskas", "Rakauskas", "Rauba", "Rimkus", "Sabaliauskas",
@@ -116,11 +116,11 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Vilimas", "Vilkelis", "Vilčinskas", "Vingrys", "Vyšniauskas", "Zabulionis", "Zalatorius", "Zigmantas", "Zukas", "Zulonas", "Čepulis", "Šakalienė", "Šaltenis", "Šeduikis", "Šeraitis", "Šimkus", "Šimulionis", "Širvinskis", "Šliogeris"
     ];
 
-    protected static array $familyNamesMale = [
+    public static array $familyNamesMale = [
         "Baranauskas", "Butkus", "Jankauskas", "Kateiva", "Kavaliauskas", "Kazlauskas", "Paulauskas", "Petrauskas", "Pocius", "Sakalauskas", "Stankevičius", "Urbonas", "Vasiliauskas", "Žukauskas"
     ];
 
-    protected static array $familyNamesFemale = [
+    public static array $familyNamesFemale = [
         "Balčiūnaitė", "Butkutė", "Jankauskaitė", "Jankauskienė", "Kavaliauskaitė", "Kavaliauskienė", "Kazlauskaitė", "Kazlauskienė", "Lukoševičiūtė", "Navickienė", "Paulauskienė", "Petrauskaitė", "Petrauskienė", "Pociūtė", "Stankevičienė", "Stankevičiūtė", "Urbonienė", "Vasiliauskaitė", "Vasiliauskienė", "Žukauskienė"
     ];
 }

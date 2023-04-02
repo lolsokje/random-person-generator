@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\nb_NO;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aage", "Aake", "Aaron", "Aasmund", "Abbas", "Abdallah", "Abdelaziz", "Abdelkader", "Abdi", "Abdiasis", "Abdifatah", "Abdikadir", "Abdinasir", "Abdirahim", "Abdirahman", "Abdirashid", "Abdirizak", "Abdul", "Abdulahi", "Abdulkadir",
         "Abdullah", "Abdullahi", "Abdulqadir", "Abdurahman", "Abed", "Abel", "Abid", "Abraham", "Absalon", "Abu", "Abubakar", "Adam", "Adan", "Adeel", "Adelheid", "Adelsten", "Adem", "Aden", "Adham", "Adi",
         "Adil", "Adis", "Adler", "Admir", "Adnan", "Adrian", "Afanasi", "Afrim", "Afshin", "Agaton", "Agim", "Agmund", "Agnar", "Agvald", "Ahmad", "Ahmed", "Aiden", "Ailo", "Aimar", "Aime",
@@ -76,7 +76,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ørnulf", "Ørnulv", "Ørvar", "Østen", "Øyolv", "Øystein", "Øyvind"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aasa", "Aase", "Aashild", "Aasta", "Abida", "Abigail", "Abir", "Ada", "Adel", "Adelaine", "Adele", "Adelen", "Adelin", "Adelina", "Adeline", "Adiba", "Adila", "Adile", "Adina", "Adine",
         "Adisa", "Admira", "Adna", "Adriana", "Aferdita", "Afshan", "Agata", "Agate", "Agathe", "Agda", "Agne", "Agnes", "Agnete", "Agnethe", "Agnieszka", "Agny", "Ahlam", "Aicha", "Aida", "Aija",
         "Aileen", "Aili", "Ailin", "Aime", "Aimée", "Aina", "Aino", "Aisha", "Aiste", "Ajna", "Alaa", "Albertine", "Aldona", "Aleena", "Aleksandra", "Alena", "Alette", "Alexandra", "Alfhild", "Alia",
@@ -134,7 +134,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zahida", "Zahra", "Zainab", "Zara", "Zuzanna", "Ågot", "Åse", "Åshild", "Åslaug", "Åsne", "Åsta", "Øydis", "Øyvor"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Aas", "Aase", "Aasen", "Aasheim", "Abrahamsen", "Ahmed", "Ali", "Amundsen", "Andersen", "Andersson", "Andreassen", "Andresen", "Antonsen", "Arnesen", "Aune", "Bakke", "Bakken", "Berg", "Berge", "Berger",
         "Bergersen", "Berntsen", "Birkeland", "Bjelland", "Bjerke", "Bjørn", "Bjørndal", "Bjørnsen", "Bjørnstad", "Borge", "Borgen", "Breivik", "Brekke", "Bråten", "Bråthen", "Bye", "Bø", "Bøe", "Carlsen", "Christensen",
         "Christiansen", "Dahl", "Dahle", "Dale", "Dalen", "Danielsen", "Edvardsen", "Egeland", "Eide", "Eikeland", "Eilertsen", "Eliassen", "Ellingsen", "Endresen", "Engebretsen", "Engen", "Enger", "Eriksen", "Evensen", "Fjeld",

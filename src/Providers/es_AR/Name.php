@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\es_AR;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Aarón", "Adrián", "Agustín", "Alan", "Alejandro", "Alex", "Alexander", "Alfonso", "Alfredo", "Alonso", "Amado", "Andrés", "Anthony", "Antonio", "Ariel", "Augusto", "Axel", "Bautista", "Benjamín", "Bruno",
         "Camilo", "Carlos", "Christian", "Christopher", "Claudio", "Cristian", "Cristóbal", "César", "Damián", "Daniel", "Dante", "David", "Diego", "Diego Alejandro", "Dylan", "Edgardo", "Eduardo", "Elías", "Emiliano", "Emilio",
         "Emmanuel", "Enrique", "Ernesto", "Esteban", "Ezequiel", "Fabián", "Facundo", "Federico", "Felipe", "Fernando", "Francisco", "Franco", "Gabriel", "Gael", "Gastón", "Gonzalo", "Guillermo", "Gustavo", "Hernán", "Hidalgo",
@@ -15,7 +15,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zacarías", "Zoilo", "Ángel"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Abigail", "Abril", "Adela", "Adriana", "Agustina", "Aitana", "Aixa", "Alejandra", "Alessandra", "Alexa", "Alina", "Allison", "Alma", "Amalia", "Amanda", "Amelia", "Ana", "Ana Paula", "Ana Sofía", "Anahí",
         "Andrea", "Angélica", "Antonella", "Antonia", "Ariadna", "Ariana", "Ashley", "Azul", "Belen", "Bianca", "Brenda", "Bárbara", "Camila", "Candela", "Carina", "Carla", "Carolina", "Catalina", "Cecilia", "Celeste",
         "Clara", "Clarisa", "Constanza", "Cristina", "Dafne", "Daniela", "Delfina", "Diana", "Dolores", "Débora", "Elena", "Eliana", "Elisa", "Elizabeth", "Eloisa", "Emilia", "Emiliana", "Emily", "Emma", "Erica",
@@ -28,7 +28,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ximena", "Yanina", "Yolanda", "Zoe"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abeyta", "Abrego", "Abreu", "Acevedo", "Acosta", "Acuña", "Adame", "Adorno", "Agosto", "Aguayo", "Aguilar", "Aguilera", "Aguirre", "Alanis", "Alaniz", "Alarcón", "Alba", "Alcala", "Alcaraz", "Alcántar",
         "Alejandro", "Alemán", "Alfaro", "Alicea", "Almanza", "Almaraz", "Almonte", "Alonso", "Alonzo", "Altamirano", "Alva", "Alvarado", "Alvarez", "Amador", "Amaya", "Anaya", "Anguiano", "Angulo", "Aparicio", "Apodaca",
         "Aponte", "Aragón", "Aranda", "Araña", "Arce", "Archuleta", "Arellano", "Arenas", "Arevalo", "Arguello", "Arias", "Armas", "Armendáriz", "Armenta", "Armijo", "Arredondo", "Arreola", "Arriaga", "Arroyo", "Arteaga",

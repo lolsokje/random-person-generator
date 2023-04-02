@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ar_JO;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Abdallah", "Abdel", "Abdullah", "Abdulrahman", "Adel", "Ahmad", "Akram", "Ali", "Amer", "Ammar", "Anas", "Anwar", "Asem", "Ayman", "Aziz", "Baha", "Bassam", "Fadi", "Fahed", "Faisal",
         "Fares", "Farid", "Faris", "Fawaz", "Firas", "Ghassan", "Hadi", "Hafez", "Haitham", "Hakam", "Hakim", "Hamza", "Hazem", "Hisham", "Husam", "Hussein", "Ibrahim", "Idris", "Imad", "Ismail",
         "Jaber", "Jalal", "Jamil", "Jawad", "Kamal", "Kareem", "Khaled", "Khalid", "Khalil", "Laith", "Mahmoud", "Majed", "Mamdouh", "Manaf", "Mansour", "Marwan", "Mazen", "Mo'tasem", "Mohammad", "Mohammed",
@@ -14,7 +14,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yousef", "Yousif", "Yusuf", "Zaid", "Zaki", "Ziad"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Abeer", "Abla", "Afaf", "Ahlam", "Aisha", "Alia", "Amani", "Amira", "Anfal", "Anoud", "Asma", "Asrar", "Atheer", "Aya", "Ayah", "Ayesha", "Azhar", "Aziza", "Badia", "Bahia",
         "Basima", "Bushra", "Dalal", "Dalia", "Dana", "Dina", "Eman", "Entisar", "Esraa", "Fadia", "Fadila", "Fahda", "Fahima", "Fakhr", "Farah", "Farida", "Faten", "Fatin", "Fatma", "Fawzia",
         "Fedaa", "Ghada", "Ghadah", "Ghina", "Habiba", "Hadeel", "Haifa", "Hala", "Hanadi", "Hanan", "Hania", "Hanin", "Haniya", "Haniyya", "Haya", "Hayat", "Hind", "Huda", "Huma", "Iman",
@@ -24,7 +24,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Sara", "Sarah", "Sawsan", "Shadia", "Shaima", "Shatha", "Shayma", "Shirin", "Siham", "Soha", "Sonia", "Suha", "Suhair", "Sumaya", "Taghrid", "Tahani", "Tahira", "Tamara"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abbadi", "Abdallah", "Abdallat", "Abdullat", "Abdulrazzaq", "Abu-Khalaf", "Abu-Libdeh", "Abu-Mallouh", "Abu-Quraini", "Abu-Ramadan", "Abu-Rashed", "Abu-Shaaban", "Abu-Zaid", "Abweh", "Adwan", "Ahmad", "Ahmed", "Ajlouni", "Aker", "Akhras",
         "Aklouk", "Alami", "Alawin", "Alfi", "Aloul", "Amaireh", "Amir", "Ammari", "Amoush", "Ananzeh", "Ani", "Ansari", "Aqel", "Arabi", "Arda", "Aref", "Arida", "Arimi", "Arouj", "Arsan",
         "Ashqar", "Asmar", "Asrawi", "Aswad", "Attiyah", "Awad", "Awadi", "Awawdeh", "Ayed", "Azem", "Azzam", "Badaineh", "Badareen", "Badran", "Bakaeen", "Balawi", "Balbisi", "Barghouthi", "Barham", "Bashir",

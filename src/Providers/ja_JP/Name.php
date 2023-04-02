@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\ja_JP;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Akira", "Daichi", "Daiki", "Daisuke", "Haruki", "Haruto", "Hayato", "Hideo", "Hikaru", "Hinata", "Hiroki", "Hiroto", "Itsuki", "Jiro", "Junya", "Kai", "Kaito", "Katsuki", "Kazuhiko", "Kazuhiro",
         "Kazuki", "Kazuma", "Keita", "Kenji", "Kensuke", "Kenta", "Kiyoshi", "Kodai", "Kohei", "Koki", "Kosei", "Kota", "Kotaro", "Kouki", "Makoto", "Masanori", "Minoru", "Mitsuo", "Ren", "Riku",
         "Rokuro", "Ryo", "Ryoma", "Ryosuke", "Ryota", "Ryuki", "Ryusei", "Shigeo", "Shin", "Shinichi", "Shintaro", "Shiro", "Sho", "Shogo", "Shota", "Shunsuke", "Shuto", "Soma", "Sora", "Sosuke",
@@ -13,7 +13,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yasushi", "Yasuyuki", "Yoshiaki", "Yoshibumi", "Yoshihiro", "Yoshio", "Yosuke", "Yudai", "Yuito", "Yuji", "Yuki", "Yukio", "Yuma", "Yusei", "Yutaka", "Yuto", "Yuuki"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Aiko", "Akari", "Akemi", "Aki", "Akiho", "Akiko", "Akina", "Aya", "Ayaka", "Ayako", "Ayame", "Ayana", "Ayu", "Azumi", "Chie", "Chieko", "Chiemi", "Chihiro", "Chika", "Emi",
         "Eri", "Erika", "Fumiko", "Hanako", "Haruka", "Haruko", "Haruna", "Hikari", "Hina", "Hiroko", "Hitomi", "Honoka", "Ikuko", "Izumi", "Kaede", "Kaho", "Kana", "Kanae", "Kanako", "Kanami",
         "Kanata", "Kanna", "Kaori", "Karin", "Karina", "Kasumi", "Kaya", "Kayo", "Kayoko", "Kazuko", "Keiko", "Kiko", "Kimiko", "Kotomi", "Kotone", "Kotoyo", "Kozue", "Kumiko", "Kyoko", "Madoka",
@@ -23,7 +23,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Tamaki", "Tamayo", "Tomiko", "Tomoko", "Toshiko", "Tsukiko", "Umeko", "Wakana", "Yasuko", "Yoko", "Yoshiko", "Yui", "Yuka", "Yukari", "Yuki", "Yukiko", "Yumi", "Yumiko", "Yuuka", "Yuuko"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abe", "Aihara", "Aizawa", "Akaike", "Akamine", "Akasaka", "Akimoto", "Akiyama", "Amari", "Ando", "Aoki", "Aoyama", "Arai", "Arakaki", "Arakawa", "Araki", "Asai", "Asano", "Atsuta", "Azuma",
         "Baba", "Chiba", "Chinen", "Chinzei", "Chishima", "Date", "Eguchi", "Endo", "Enomoto", "Fujii", "Fujikawa", "Fujimaki", "Fujimoto", "Fujino", "Fujita", "Fukuda", "Fukuhara", "Fukui", "Fukumoto", "Fukushima",
         "Funaki", "Fuse", "Futaba", "Goda", "Goto", "Hada", "Hagiwara", "Hamada", "Hamamoto", "Hamasaki", "Hanabusa", "Hara", "Harada", "Hase", "Hashimoto", "Hayakawa", "Hayashi", "Higa", "Higashi", "Hino",

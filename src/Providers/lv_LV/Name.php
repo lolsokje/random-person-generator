@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\lv_LV;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Acons", "Adalberts", "Adelions", "Adeljans", "Adeļjons", "Adgars", "Adis", "Ado", "Adonis", "Adoniss", "Adrians", "Adris", "Adriāns", "Afanasijs", "Agatons", "Agejs", "Agijs", "Agnis", "Agnārs", "Agris",
         "Agrits", "Agrons", "Agurs", "Ahmads", "Ahmeds", "Ahto", "Aidars", "Aidis", "Aigars", "Aigijs", "Aigils", "Aigis", "Aigo", "Aigvars", "Ailands", "Aimo", "Ainards", "Ainars", "Ainis", "Aino",
         "Ainārs", "Airats", "Airiks", "Airis", "Airtons", "Aivalds", "Aivars", "Aivijs", "Aivils", "Aivis", "Aivo", "Aivārs", "Akims", "Ako", "Akselis", "Aksels", "Alans", "Alberts", "Albins", "Albīns",
@@ -109,7 +109,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Ģirts", "Īvars", "Īvis", "Ļevs", "Ņikifors", "Ņikita", "Šandors", "Žaks", "Žanis", "Žanno", "Žano", "Žans", "Ženijs", "Žerārs", "Žigmunds", "Žoržs", "Žozefs"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ada", "Adala", "Adalberta", "Adela", "Adelaida", "Adelaide", "Adele", "Adelfina", "Adelgunde", "Adelheida", "Adelheide", "Adelija", "Adelina", "Adelīna", "Adija", "Adonija", "Adrija", "Adriāna", "Adēlija", "Adīna",
         "Adīne", "Aelita", "Afanasija", "Afra", "Afrodīte", "Agafija", "Agata", "Agate", "Agija", "Agika", "Agita", "Aglikerija", "Agna", "Agnda", "Agne", "Agnesa", "Agnese", "Agnesija", "Agneta", "Agnete",
         "Agneze", "Agneška", "Agnija", "Agnita", "Agnēze", "Agra", "Agreda", "Agrida", "Agrija", "Agrina", "Agripina", "Agrita", "Agrīte", "Agunda", "Agāte", "Agņeška", "Aida", "Aiga", "Aigija", "Aigita",
@@ -256,7 +256,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Žermēna", "Žozefina", "Žuanete", "Žubīte"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abele", "Abuls", "Aizkalne", "Aizupe", "Akmentiņš", "Alksnis", "Alunāns", "Ancāns", "Andžāns", "Ankipāns", "Aparjode", "Apine", "Apinis", "Aploks", "Apse", "Apsītis", "Arājs", "Asars", "Astra", "Augstkalns",
         "Augškalns", "Auniņš", "Auns", "Auziņa", "Auziņš", "Auškāps", "Avens", "Avotiņš", "Avots", "Bajārs", "Baldzēns", "Balode", "Balodis", "Baltgailis", "Baltiņš", "Banga", "Bargais", "Barkāns", "Barons", "Baušķenieks",
         "Bebris", "Bertāns", "Berģis", "Biezais", "Birkavs", "Birkerts", "Birze", "Birznieks", "Bisenieks", "Bite", "Bitenieks", "Blumbergs", "Bojārs", "Brasla", "Breikšs", "Brencēns", "Brice", "Briede", "Briedis", "Broks",

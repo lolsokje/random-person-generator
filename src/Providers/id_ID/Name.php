@@ -4,7 +4,7 @@ namespace LilPecky\DriverGenerator\Providers\id_ID;
 
 class Name extends \LilPecky\DriverGenerator\Providers\Name
 {
-    protected static array $givenNamesMale = [
+    public static array $givenNamesMale = [
         "Abdul", "Abyasa", "Adam", "Ade", "Adhiarja", "Adi", "Adiarja", "Adika", "Adikara", "Adinata", "Aditya", "Agus", "Ahmad", "Ajiman", "Ajimat", "Ajimin", "Ajiono", "Akarsana", "Akbar", "Alambana",
         "Aldi", "Among", "Anggabaya", "Anom", "Argono", "Ari", "Arief", "Arif", "Aris", "Arman", "Armando", "Arnold", "Arsipatra", "Arta", "Artanto", "Artawan", "Asep", "Asirwada", "Asirwanda", "Aslijan",
         "Asmadi", "Asman", "Asmianto", "Asmuni", "Aswani", "Atma", "Atmaja", "Bagas", "Bagiya", "Bagus", "Bagya", "Bahuraksa", "Bahuwarna", "Bahuwirya", "Bajragin", "Bakda", "Bakiadi", "Bakianto", "Bakidin", "Bakijan",
@@ -38,7 +38,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Yusuf"
     ];
 
-    protected static array $givenNamesFemale = [
+    public static array $givenNamesFemale = [
         "Ade", "Agnes", "Aisyah", "Ajeng", "Alia", "Alika", "Alinda", "Almira", "Amalia", "Amanda", "Amelia", "Ami", "Ana", "Anastasia", "Angel", "Angela", "Ani", "Anisa", "Anita", "Annisa",
         "Ariani", "Arin", "Arum", "Asep", "Aurora", "Ayu", "Azalea", "Belinda", "Bella", "Berlian", "Betania", "Bunga", "Calista", "Candra", "Cantika", "Carla", "Cathy", "Celine", "Cempaka", "Chelsea",
         "Ciaobella", "Cici", "Cindy", "Cinta", "Cinthia", "Citra", "Clara", "Cornelia", "Dalima", "Dea", "Deasy", "Devi", "Dewi", "Dhini", "Diah", "Dian", "Diana", "Dina", "Dinda", "Dini",
@@ -58,7 +58,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Zalindra", "Zamira", "Zelaya", "Zelda", "Zizi", "Zulaikha", "Zulfa"
     ];
 
-    protected static array $familyNames = [
+    public static array $familyNames = [
         "Abdullah", "Adi", "Adnan", "Adrianto", "Agus", "Ali", "Amir", "Ananda", "Angga", "Arifin", "Budi", "Cahyono", "Chandra", "Damanik", "Darma", "Daryanto", "Daud", "Dharma", "Dwi", "Firdaus",
         "Gumilar", "Gunawan", "Hakim", "Hamid", "Harahap", "Harianto", "Hartanto", "Hidayat", "Ibrahim", "Idris", "Ihsan", "Imanuel", "Joko", "Kartono", "Kusuma", "Laksana", "Lazuardi", "Lestari", "Lubis", "Makarim",
         "Mansur", "Marpaung", "Martono", "Maulana", "Maulidiyah", "Mukti", "Mulia", "Mulyadi", "Muslim", "Nasution", "Nugraha", "Nurhadi", "Nurhayati", "Octavia", "Prabowo", "Pranata", "Pribadi", "Prihastomo", "Purnomo", "Putra",
@@ -67,7 +67,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Widodo", "Wijaya", "Winarno", "Wongso", "Yulianto", "Yusuf", "Zainuddin", "Zulkarnain"
     ];
 
-    protected static array $familyNamesMale = [
+    public static array $familyNamesMale = [
         "Adriansyah", "Anggriawan", "Ardianto", "Budiman", "Budiyanto", "Dabukke", "Damanik", "Dongoran", "Firgantoro", "Firmansyah", "Gunarto", "Gunawan", "Habibi", "Hakim", "Halim", "Hardiansyah", "Haryanto", "Hidayanto", "Hidayat", "Hutagalung",
         "Hutapea", "Hutasoit", "Irawan", "Iswahyudi", "Jailani", "Januar", "Kurniawan", "Kusumo", "Kuswoyo", "Latupono", "Lazuardi", "Mahendra", "Maheswara", "Mandala", "Mangunsong", "Mansur", "Manullang", "Marbun", "Marpaung", "Maryadi",
         "Maulana", "Megantara", "Mustofa", "Nababan", "Nainggolan", "Najmudin", "Napitupulu", "Narpati", "Nashiruddin", "Natsir", "Nugroho", "Pangestu", "Permadi", "Prabowo", "Pradana", "Pradipta", "Prakasa", "Pranowo", "Prasasta", "Prasetya",
@@ -76,7 +76,7 @@ class Name extends \LilPecky\DriverGenerator\Providers\Name
         "Widodo", "Wijaya", "Winarno", "Zulkarnain"
     ];
 
-    protected static array $familyNamesFemale = [
+    public static array $familyNamesFemale = [
         "Agustina", "Andriani", "Anggraini", "Aryani", "Astuti", "Farida", "Fujiati", "Halimah", "Handayani", "Hariyah", "Hartati", "Haryanti", "Hasanah", "Hassanah", "Hastuti", "Kusmawati", "Kuswandari", "Lailasari", "Laksita", "Laksmiwati",
         "Lestari", "Mandasari", "Mardhiyah", "Maryati", "Mayasari", "Melani", "Mulyani", "Namaga", "Nasyiah", "Nasyidah", "Novitasari", "Nuraini", "Nurdiyanti", "Oktaviani", "Padmasari", "Palastri", "Permata", "Pertiwi", "Prastuti", "Pratiwi",
         "Pudjiastuti", "Purnawati", "Purwanti", "Puspasari", "Puspita", "Rahayu", "Rahimah", "Rahmawati", "Riyanti", "Safitri", "Suartini", "Sudiati", "Suryatmi", "Susanti", "Usada", "Usamah", "Utami", "Uyainah", "Wahyuni", "Wastuti",
