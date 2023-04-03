@@ -4,14 +4,14 @@ use LilPecky\RandomPersonGenerator\Exceptions\InvalidLanguageException;
 use LilPecky\RandomPersonGenerator\Languages;
 
 it('throws an exception if an invalid language is provided', function () {
-    Languages::parseLanguage('invalid');
+    Languages::getLanguageName('invalid');
 })->throws(InvalidLanguageException::class, "The language [invalid] is invalid");
 
 it('parses the provided language code and returns a language name', function (
     string $languageCode,
     string $expectedLanguage,
 ) {
-    $this->assertEquals($expectedLanguage, Languages::parseLanguage($languageCode));
+    $this->assertEquals($expectedLanguage, Languages::getLanguageName($languageCode));
 })->with([
     ['en', 'English'],
     ['nl', 'Dutch'],
@@ -59,4 +59,20 @@ it('returns all available language and country combinations as locales', functio
     foreach ($testLocales as $locale) {
         $this->assertContains($locale, $locales);
     }
+});
+
+it('caches provider locales between calls', function () {
+    $reflectionClass = new ReflectionClass(Languages::class);
+    $providerLocalesProperty = $reflectionClass->getProperty('providerLocales');
+    $providerLocalesProperty->setValue([]);
+
+    $this->assertEmpty($providerLocalesProperty->getValue());
+
+    Languages::getAvailableLocales();
+
+    $this->assertNotEmpty($providerLocalesProperty->getValue());
+
+    Languages::getAvailableLocales();
+
+    $this->assertNotEmpty($providerLocalesProperty->getValue());
 });

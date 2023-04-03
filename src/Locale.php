@@ -35,7 +35,7 @@ class Locale implements Stringable
 
     public function language(): string
     {
-        return Languages::parseLanguage($this->language);
+        return Languages::getLanguageName($this->language);
     }
 
     public function __toString(): string

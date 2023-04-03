@@ -6,52 +6,6 @@ use LilPecky\RandomPersonGenerator\Exceptions\InvalidLanguageException;
 
 class Languages
 {
-    private const COUNTRY_CODES = [
-        'ar' => ['EG', 'JO', 'SA'],
-        'bg' => ['BG'],
-        'cs' => ['CZ'],
-        'da' => ['DK'],
-        'de' => ['AT', 'CH', 'DE'],
-        'el' => ['CY', 'GR'],
-        'en' => ['AU', 'CA', 'GB', 'US'],
-        'es' => ['AR', 'ES', 'PE', 'VE'],
-        'et' => ['EE'],
-        'fa' => ['IR'],
-        'fi' => ['FI'],
-        'fr' => ['BE', 'CA', 'CH', 'FR'],
-        'he' => ['IL'],
-        'hr' => ['HR'],
-        'hu' => ['HU'],
-        'hy' => ['AM'],
-        'id' => ['ID'],
-        'is' => ['IS'],
-        'it' => ['IT'],
-        'ja' => ['JP'],
-        'ka' => ['GE'],
-        'kk' => ['KZ'],
-        'ko' => ['KR'],
-        'lt' => ['LT'],
-        'lv' => ['LV'],
-        'mn' => ['MN'],
-        'ms' => ['MY'],
-        'nb' => ['NO'],
-        'ne' => ['NP'],
-        'nl' => ['BE', 'NL'],
-        'pl' => ['PL'],
-        'pt' => ['BR', 'PT'],
-        'ro' => ['MD', 'RO'],
-        'ru' => ['RU'],
-        'sk' => ['SK'],
-        'sl' => ['SI'],
-        'sr' => ['RS'],
-        'sv' => ['SE'],
-        'th' => ['TH'],
-        'tr' => ['TR'],
-        'uk' => ['UA'],
-        'vi' => ['VN'],
-        'zh' => ['CN', 'TW'],
-    ];
-
     private const LANGUAGES = [
         'ar' => 'Arabic',
         'bg' => 'Bulgarian',
@@ -97,6 +51,8 @@ class Languages
         'zh' => 'Chinese',
     ];
 
+    private static array $providerLocales = [];
+
     public static function getLanguages(): array
     {
         return self::LANGUAGES;
@@ -106,7 +62,7 @@ class Languages
     {
         $locales = [];
 
-        foreach (self::COUNTRY_CODES as $language => $countries) {
+        foreach (self::getProviderLocales() as $language => $countries) {
             foreach ($countries as $country) {
                 $locales[] = "{$language}_$country";
             }
@@ -117,19 +73,36 @@ class Languages
 
     public static function getCountryCodes(string $language): array
     {
-        if (! array_key_exists($language, self::COUNTRY_CODES)) {
+        if (! array_key_exists($language, self::getProviderLocales())) {
             throw new InvalidLanguageException("The language [$language] is invalid");
         }
 
-        return self::COUNTRY_CODES[$language];
+        return self::getProviderLocales()[$language];
     }
 
-    public static function parseLanguage(string $language): string
+    public static function getLanguageName(string $language): string
     {
         if (! array_key_exists($language, self::LANGUAGES)) {
             throw new InvalidLanguageException("The language [$language] is invalid");
         }
 
         return self::LANGUAGES[$language];
+    }
+
+    private static function getProviderLocales(): array
+    {
+        if (! count(self::$providerLocales)) {
+            $directory = __DIR__ . '/Providers/';
+            // ab_CD
+            $pattern = '/[a-z]{2}_[A-Z]{2}/';
+            $folders = array_filter(scandir($directory), fn (string $entry) => preg_match($pattern, $entry));
+
+            foreach ($folders as $folder) {
+                [$language, $country] = explode('_', $folder);
+                self::$providerLocales[$language][] = $country;
+            }
+        }
+
+        return self::$providerLocales;
     }
 }
