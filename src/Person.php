@@ -1,6 +1,6 @@
 <?php
 
-namespace LilPecky\DriverGenerator;
+namespace LilPecky\RandomPersonGenerator;
 
 use DateTimeImmutable;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LilPecky\DriverGenerator\Contracts;
+namespace LilPecky\RandomPersonGenerator\Contracts;
 
 interface Provider
 {

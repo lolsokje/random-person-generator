@@ -1,7 +1,7 @@
 <?php
 
-use LilPecky\DriverGenerator\Exceptions\InvalidLocaleException;
-use LilPecky\DriverGenerator\Locale;
+use LilPecky\RandomPersonGenerator\Exceptions\InvalidLocaleException;
+use LilPecky\RandomPersonGenerator\Locale;
 
 it('throws an exception if a provided locale does not follow the required format', function () {
     Locale::create('invalid');

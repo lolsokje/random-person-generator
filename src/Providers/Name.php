@@ -1,10 +1,10 @@
 <?php
 
-namespace LilPecky\DriverGenerator\Providers;
+namespace LilPecky\RandomPersonGenerator\Providers;
 
-use LilPecky\DriverGenerator\Contracts\Provider;
-use LilPecky\DriverGenerator\Support\Gender;
-use LilPecky\DriverGenerator\Support\Random;
+use LilPecky\RandomPersonGenerator\Contracts\Provider;
+use LilPecky\RandomPersonGenerator\Support\Gender;
+use LilPecky\RandomPersonGenerator\Support\Random;
 
 class Name implements Provider
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LilPecky\DriverGenerator;
+namespace LilPecky\RandomPersonGenerator;
 
 use DateTimeImmutable;
-use LilPecky\DriverGenerator\Contracts\Provider;
-use LilPecky\DriverGenerator\Support\Gender;
+use LilPecky\RandomPersonGenerator\Contracts\Provider;
+use LilPecky\RandomPersonGenerator\Support\Gender;
 
 /**
  * @method dateBetween(DateTimeImmutable|string|null $startDate = '-30 years', DateTimeImmutable|string|null $endDate = 'now'): DateTimeImmutable

@@ -1,6 +1,6 @@
 <?php
 
-namespace LilPecky\DriverGenerator\Exceptions;
+namespace LilPecky\RandomPersonGenerator\Exceptions;
 
 use Exception;
 

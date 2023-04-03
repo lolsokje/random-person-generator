@@ -1,7 +1,7 @@
 <?php
 
-use LilPecky\DriverGenerator\Exceptions\InvalidLanguageException;
-use LilPecky\DriverGenerator\Languages;
+use LilPecky\RandomPersonGenerator\Exceptions\InvalidLanguageException;
+use LilPecky\RandomPersonGenerator\Languages;
 
 it('throws an exception if an invalid language is provided', function () {
     Languages::parseLanguage('invalid');

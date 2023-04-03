@@ -1,10 +1,10 @@
 <?php
 
-use LilPecky\DriverGenerator\Factory;
-use LilPecky\DriverGenerator\Generator;
-use LilPecky\DriverGenerator\Locale;
-use LilPecky\DriverGenerator\Providers\Date;
-use LilPecky\DriverGenerator\Providers\en_GB\Name;
+use LilPecky\RandomPersonGenerator\Factory;
+use LilPecky\RandomPersonGenerator\Generator;
+use LilPecky\RandomPersonGenerator\Locale;
+use LilPecky\RandomPersonGenerator\Providers\Date;
+use LilPecky\RandomPersonGenerator\Providers\en_GB\Name;
 
 it('can create a new generator for a given locale', function (string $localeString) {
     $locale = Locale::create($localeString);
@@ -30,5 +30,5 @@ it('adds the correct providers', function (string $localeString) {
 
     $this->assertIsArray($providers);
     $this->assertInstanceOf(Date::class, $providers[0]);
-    $this->assertInstanceOf("LilPecky\\DriverGenerator\\Providers\\$locale\\Name", $providers[1]);
+    $this->assertInstanceOf("LilPecky\\RandomPersonGenerator\\Providers\\$locale\\Name", $providers[1]);
 })->with('locales');

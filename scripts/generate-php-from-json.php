@@ -1,6 +1,6 @@
 <?php
 
-use LilPecky\DriverGenerator\Languages;
+use LilPecky\RandomPersonGenerator\Languages;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

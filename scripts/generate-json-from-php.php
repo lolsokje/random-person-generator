@@ -1,7 +1,7 @@
 <?php
 
-use LilPecky\DriverGenerator\Languages;
-use LilPecky\DriverGenerator\Providers\Name;
+use LilPecky\RandomPersonGenerator\Languages;
+use LilPecky\RandomPersonGenerator\Providers\Name;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -22,7 +22,7 @@ $optionalProperties = [
 ];
 
 foreach ($locales as $locale) {
-    $className = "LilPecky\\DriverGenerator\\Providers\\$locale\\Name";
+    $className = "LilPecky\\RandomPersonGenerator\\Providers\\$locale\\Name";
     if (! class_exists($className)) {
         continue;
     }

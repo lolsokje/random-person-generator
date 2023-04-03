@@ -1,8 +1,8 @@
 <?php
 
-namespace LilPecky\DriverGenerator;
+namespace LilPecky\RandomPersonGenerator;
 
-use LilPecky\DriverGenerator\Exceptions\InvalidLocaleException;
+use LilPecky\RandomPersonGenerator\Exceptions\InvalidLocaleException;
 use Stringable;
 
 class Locale implements Stringable

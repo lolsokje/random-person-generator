@@ -1,6 +1,6 @@
 <?php
 
-namespace LilPecky\DriverGenerator;
+namespace LilPecky\RandomPersonGenerator;
 
 class Factory
 {
@@ -43,7 +43,7 @@ class Factory
             $providerClassname = "Providers\\$provider";
         }
 
-        $fullProviderClassname = "LilPecky\\DriverGenerator\\$providerClassname";
+        $fullProviderClassname = "LilPecky\\RandomPersonGenerator\\$providerClassname";
 
         return class_exists($fullProviderClassname) ? $fullProviderClassname : null;
     }

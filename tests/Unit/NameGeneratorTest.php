@@ -1,10 +1,10 @@
 <?php
 
-use LilPecky\DriverGenerator\Factory;
-use LilPecky\DriverGenerator\Languages;
-use LilPecky\DriverGenerator\Locale;
-use LilPecky\DriverGenerator\Providers\Name;
-use LilPecky\DriverGenerator\Support\Gender;
+use LilPecky\RandomPersonGenerator\Factory;
+use LilPecky\RandomPersonGenerator\Languages;
+use LilPecky\RandomPersonGenerator\Locale;
+use LilPecky\RandomPersonGenerator\Providers\Name;
+use LilPecky\RandomPersonGenerator\Support\Gender;
 
 it('generates a male given name from a given locale', function (string $localeString) {
     $locale = Locale::create($localeString);
@@ -62,7 +62,7 @@ it('generates gender based family names for locales with gendered family names',
 
 it('does not generated gendered family names if no gendered family names exist', function () {
     $locale = Locale::create('en_GB');
-    $provider = new \LilPecky\DriverGenerator\Providers\en_GB\Name;
+    $provider = new \LilPecky\RandomPersonGenerator\Providers\en_GB\Name;
 
     $generator = Factory::create($locale);
 
@@ -94,9 +94,9 @@ it('generates Icelandic female last names', function () {
     $this->assertStringEndsNotWith('ursdóttir', $name);
 });
 
-it('it does not include "ur" in Icelandic last names', function () {
+it('does not include "ur" in Icelandic last names', function () {
     $locale = Locale::create('is_IS');
-    \LilPecky\DriverGenerator\Providers\is_IS\Name::$givenNamesMale = ['Testur'];
+    \LilPecky\RandomPersonGenerator\Providers\is_IS\Name::$givenNamesMale = ['Testur'];
 
     $generator = Factory::create($locale);
 
@@ -107,7 +107,7 @@ it('it does not include "ur" in Icelandic last names', function () {
 
 function getNameProvider(string $localeString): Name
 {
-    $providerPath = "LilPecky\\DriverGenerator\\Providers\\$localeString\\Name";
+    $providerPath = "LilPecky\\RandomPersonGenerator\\Providers\\$localeString\\Name";
 
     return new $providerPath;
 }

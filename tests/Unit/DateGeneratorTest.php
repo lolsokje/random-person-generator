@@ -1,11 +1,11 @@
 <?php
 
-use LilPecky\DriverGenerator\Factory;
+use LilPecky\RandomPersonGenerator\Factory;
 
 it('generates a random date between two DateTimeImmutable bounds', function () {
     $generator = Factory::create();
 
-    $endDate = new DateTimeImmutable();
+    $endDate = new DateTimeImmutable;
     $startDate = $endDate->sub(new DateInterval('P10Y'));
 
     $date = $generator->dateBetween($startDate, $endDate);
@@ -33,7 +33,7 @@ it('generates a random date between now and 30 years ago if no bounds are provid
 
     $date = $generator->dateBetween();
 
-    $now = new DateTimeImmutable();
+    $now = new DateTimeImmutable;
 
     $this->assertInstanceOf(DateTimeImmutable::class, $date);
     $this->assertGreaterThan($now->sub(new DateInterval('P30Y'))->format('Y-m-d'), $date->format('Y-m-d'));

@@ -1,5 +1,5 @@
 <?php
 
-use LilPecky\DriverGenerator\Languages;
+use LilPecky\RandomPersonGenerator\Languages;
 
 dataset('locales', Languages::getAvailableLocales());

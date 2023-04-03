@@ -1,8 +1,8 @@
 <?php
 
-namespace LilPecky\DriverGenerator;
+namespace LilPecky\RandomPersonGenerator;
 
-use LilPecky\DriverGenerator\Exceptions\InvalidLanguageException;
+use LilPecky\RandomPersonGenerator\Exceptions\InvalidLanguageException;
 
 class Languages
 {

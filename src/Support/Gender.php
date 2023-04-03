@@ -1,6 +1,6 @@
 <?php
 
-namespace LilPecky\DriverGenerator\Support;
+namespace LilPecky\RandomPersonGenerator\Support;
 
 enum Gender: string
 {

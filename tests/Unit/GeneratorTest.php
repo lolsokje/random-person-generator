@@ -1,10 +1,10 @@
 <?php
 
-use LilPecky\DriverGenerator\Factory;
-use LilPecky\DriverGenerator\Generator;
-use LilPecky\DriverGenerator\Locale;
-use LilPecky\DriverGenerator\Person;
-use LilPecky\DriverGenerator\Support\Gender;
+use LilPecky\RandomPersonGenerator\Factory;
+use LilPecky\RandomPersonGenerator\Generator;
+use LilPecky\RandomPersonGenerator\Locale;
+use LilPecky\RandomPersonGenerator\Person;
+use LilPecky\RandomPersonGenerator\Support\Gender;
 
 it('caches previously called methods', function () {
     $generator = Factory::create();
