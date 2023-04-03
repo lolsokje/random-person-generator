@@ -94,6 +94,17 @@ it('generates Icelandic female last names', function () {
     $this->assertStringEndsNotWith('ursdóttir', $name);
 });
 
+it('it does not include "ur" in Icelandic last names', function () {
+    $locale = Locale::create('is_IS');
+    \LilPecky\DriverGenerator\Providers\is_IS\Name::$givenNamesMale = ['Testur'];
+
+    $generator = Factory::create($locale);
+
+    $name = $generator->familyName();
+
+    $this->assertEquals('Testsson', $name);
+});
+
 function getNameProvider(string $localeString): Name
 {
     $providerPath = "LilPecky\\DriverGenerator\\Providers\\$localeString\\Name";
