@@ -46,6 +46,9 @@ class Generator
         );
     }
 
+    /**
+     * @return Person[]
+     */
     public function persons(
         Amount $amount,
         DateTimeImmutable|string|null $startDate,
@@ -70,6 +73,9 @@ class Generator
         return $persons;
     }
 
+    /**
+     * @return Person[]
+     */
     public function people(
         Amount $amount,
         DateTimeImmutable|string|null $startDate,

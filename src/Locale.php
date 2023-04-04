@@ -16,6 +16,7 @@ class Locale implements Stringable
 
     public static function create(string $locale): Locale
     {
+        // ab_CD
         if (! preg_match('/[a-z]{2}_[A-Z]{2}/', $locale)) {
             throw new InvalidLocaleException("Locale [$locale] doesn't follow the required format");
         }
