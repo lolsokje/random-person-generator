@@ -4,6 +4,7 @@ namespace LilPecky\RandomPersonGenerator\Providers;
 
 use DateTimeImmutable;
 use LilPecky\RandomPersonGenerator\Contracts\Provider;
+use LilPecky\RandomPersonGenerator\Support\Random;
 
 class Date implements Provider
 {
@@ -14,9 +15,6 @@ class Date implements Provider
         $startTimestamp = $startDate instanceof DateTimeImmutable ? $startDate->getTimestamp() : strtotime($startDate);
         $endTimeStamp = $endDate instanceof DateTimeImmutable ? $endDate->getTimestamp() : strtotime($endDate);
 
-        $min = min($startTimestamp, $endTimeStamp);
-        $max = max($startTimestamp, $endTimeStamp);
-
-        return (new DateTimeImmutable)->setTimestamp(mt_rand($min, $max));
+        return (new DateTimeImmutable)->setTimestamp(Random::number($startTimestamp, $endTimeStamp));
     }
 }
