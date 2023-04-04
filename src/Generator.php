@@ -49,7 +49,7 @@ class Generator
     /**
      * @return Person[]
      */
-    public function persons(
+    public function people(
         Amount $amount,
         DateTimeImmutable|string|null $startDate,
         DateTimeImmutable|string|null $endDate,
@@ -76,14 +76,14 @@ class Generator
     /**
      * @return Person[]
      */
-    public function people(
+    public function persons(
         Amount $amount,
         DateTimeImmutable|string|null $startDate,
         DateTimeImmutable|string|null $endDate,
         ?Gender $gender = null,
         ?bool $randomiseCountryForEachPerson = true,
     ): array {
-        return $this->persons(
+        return $this->people(
             amount: $amount,
             startDate: $startDate,
             endDate: $endDate,
