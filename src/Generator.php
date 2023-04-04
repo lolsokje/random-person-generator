@@ -19,13 +19,13 @@ class Generator
     private array $methods = [];
 
     public function __construct(
-        private readonly Locale $locale,
+        private Locale $locale,
     ) {
     }
 
-    public function addProvider(Provider $provider): void
+    public function addProvider(string $tag, Provider $provider): void
     {
-        $this->providers[] = $provider;
+        $this->providers[$tag] = $provider;
     }
 
     public function getProviders(): array
@@ -43,6 +43,46 @@ class Generator
             dob: $this->dateBetween($startDate, $endDate),
             firstName: $this->givenName($gender),
             lastName: $this->familyName($gender),
+        );
+    }
+
+    public function persons(
+        Amount $amount,
+        DateTimeImmutable|string|null $startDate,
+        DateTimeImmutable|string|null $endDate,
+        ?Gender $gender = null,
+        ?bool $randomiseCountryForEachPerson = true,
+    ): array {
+        $persons = [];
+
+        for ($i = 0; $i < $amount->value; $i++) {
+            $persons[] = $this->person(
+                startDate: $startDate,
+                endDate: $endDate,
+                gender: $gender,
+            );
+
+            if ($randomiseCountryForEachPerson) {
+                $this->setNewLocale();
+            }
+        }
+
+        return $persons;
+    }
+
+    public function people(
+        Amount $amount,
+        DateTimeImmutable|string|null $startDate,
+        DateTimeImmutable|string|null $endDate,
+        ?Gender $gender = null,
+        ?bool $randomiseCountryForEachPerson = true,
+    ): array {
+        return $this->persons(
+            amount: $amount,
+            startDate: $startDate,
+            endDate: $endDate,
+            gender: $gender,
+            randomiseCountryForEachPerson: $randomiseCountryForEachPerson,
         );
     }
 
@@ -69,5 +109,13 @@ class Generator
                 return $this->methods[$method];
             }
         }
+    }
+
+    private function setNewLocale(): void
+    {
+        $this->locale = Locale::randomForLanguage($this->locale->languageCode());
+
+        $className = Support\Provider::getProviderClassname('name', $this->locale);
+        $this->addProvider('name', new $className);
     }
 }

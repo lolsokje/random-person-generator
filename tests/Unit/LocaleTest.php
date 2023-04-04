@@ -21,5 +21,5 @@ it('parses the country code and language from locales', function () {
     $locale = Locale::create('en_GB');
 
     $this->assertEquals('GB', $locale->country());
-    $this->assertEquals('English', $locale->language());
+    $this->assertEquals('English', $locale->languageName());
 });

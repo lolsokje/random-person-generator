@@ -19,7 +19,7 @@ it('uses the default locale when no locale is provided', function () {
 
     $providers = $generator->getProviders();
 
-    $this->assertInstanceOf(Name::class, $providers[1]);
+    $this->assertInstanceOf(Name::class, $providers['name']);
 });
 
 it('adds the correct providers', function (string $localeString) {
@@ -29,6 +29,6 @@ it('adds the correct providers', function (string $localeString) {
     $providers = $generator->getProviders();
 
     $this->assertIsArray($providers);
-    $this->assertInstanceOf(Date::class, $providers[0]);
-    $this->assertInstanceOf("LilPecky\\RandomPersonGenerator\\Providers\\$locale\\Name", $providers[1]);
+    $this->assertInstanceOf(Date::class, $providers['date']);
+    $this->assertInstanceOf("LilPecky\\RandomPersonGenerator\\Providers\\$locale\\Name", $providers['name']);
 })->with('locales');

@@ -2,6 +2,8 @@
 
 namespace LilPecky\RandomPersonGenerator;
 
+use LilPecky\RandomPersonGenerator\Support\Provider;
+
 class Factory
 {
     private const DEFAULT_LOCALE = 'en_GB';
@@ -19,32 +21,35 @@ class Factory
         $generator = new Generator($locale);
 
         foreach (self::$defaultProviders as $provider) {
-            $className = self::getProviderClassname($provider, $locale);
-            $generator->addProvider(new $className);
+            $className = Provider::getProviderClassname($provider, $locale);
+            $generator->addProvider(
+                tag: strtolower($provider),
+                provider: new $className,
+            );
         }
 
         return $generator;
     }
 
-    private static function getProviderClassname(string $provider, Locale $locale): string
-    {
-        if ($providerClassname = self::buildProviderClassname($provider, $locale)) {
-            return $providerClassname;
+    public static function createWithRandomLocale(
+        ?string $language = null,
+    ): Generator {
+        if (! $language) {
+            $language = Languages::getRandomLanguage();
         }
 
-        return self::buildProviderClassname($provider);
-    }
+        $locale = Locale::randomForLanguage($language);
 
-    private static function buildProviderClassname(string $provider, ?Locale $locale = null): ?string
-    {
-        if ($locale) {
-            $providerClassname = "Providers\\$locale\\$provider";
-        } else {
-            $providerClassname = "Providers\\$provider";
+        $generator = new Generator($locale);
+
+        foreach (self::$defaultProviders as $provider) {
+            $className = Provider::getProviderClassname($provider, $locale);
+            $generator->addProvider(
+                tag: strtolower($provider),
+                provider: new $className,
+            );
         }
 
-        $fullProviderClassname = "LilPecky\\RandomPersonGenerator\\$providerClassname";
-
-        return class_exists($fullProviderClassname) ? $fullProviderClassname : null;
+        return $generator;
     }
 }

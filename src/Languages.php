@@ -3,6 +3,7 @@
 namespace LilPecky\RandomPersonGenerator;
 
 use LilPecky\RandomPersonGenerator\Exceptions\InvalidLanguageException;
+use LilPecky\RandomPersonGenerator\Support\Random;
 
 class Languages
 {
@@ -56,6 +57,11 @@ class Languages
     public static function getLanguages(): array
     {
         return self::LANGUAGES;
+    }
+
+    public static function getRandomLanguage(): string
+    {
+        return Random::element(array_keys(self::LANGUAGES));
     }
 
     public static function getAvailableLocales(): array

@@ -3,6 +3,7 @@
 namespace LilPecky\RandomPersonGenerator;
 
 use LilPecky\RandomPersonGenerator\Exceptions\InvalidLocaleException;
+use LilPecky\RandomPersonGenerator\Support\Random;
 use Stringable;
 
 class Locale implements Stringable
@@ -28,14 +29,27 @@ class Locale implements Stringable
         return new self($language, $country);
     }
 
+    public static function randomForLanguage(
+        string $language,
+    ): Locale {
+        $country = Random::element(Languages::getCountryCodes($language));
+
+        return self::create("{$language}_$country");
+    }
+
     public function country(): string
     {
         return $this->country;
     }
 
-    public function language(): string
+    public function languageName(): string
     {
         return Languages::getLanguageName($this->language);
+    }
+
+    public function languageCode(): string
+    {
+        return $this->language;
     }
 
     public function __toString(): string
