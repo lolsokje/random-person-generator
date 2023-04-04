@@ -20,5 +20,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    }
+    },
+    "license": "MIT"
 }
